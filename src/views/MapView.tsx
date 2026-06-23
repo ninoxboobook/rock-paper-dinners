@@ -7,6 +7,7 @@ import 'leaflet.markercluster/dist/MarkerCluster.css'
 import { useStore, filterVenues } from '../store/useStore'
 import { cuisineEmoji } from '../lib/cuisine'
 import { FilterSheet } from '../components/FilterSheet'
+import { FilterIcon } from '../lib/icons'
 
 const MELB_CENTER: [number, number] = [-37.8136, 144.9631]
 
@@ -51,7 +52,7 @@ export function MapView() {
     <div className="view map-view">
       <div className="map-overlay-bar">
         <button className="pill" onClick={() => setFilterOpen(true)}>
-          🎛 Filters{filterCount ? ` · ${filterCount}` : ''}
+          <FilterIcon size={16} weight="bold" /> Filters{filterCount ? ` · ${filterCount}` : ''}
         </button>
         <span className="pool-count">{pins.length} pins</span>
       </div>

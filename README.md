@@ -30,7 +30,9 @@ suburb centroid is rejected (catches wrong-street and interstate mismatches).
 
 - **Vite + React + TypeScript**
 - **Zustand** for state (filters + shortlist persisted to `localStorage`)
-- **Leaflet / react-leaflet** + OpenStreetMap tiles
+- **Leaflet / react-leaflet** (+ marker clustering) + OpenStreetMap tiles
+- **Phosphor** for UI icons (tabs, buttons, filters); emoji are kept for the
+  slot reels and cuisine pins
 - **vite-plugin-pwa** (Workbox) — installable, offline, caches map tiles
 - `DeviceMotion` for shake detection (iOS motion-permission handled)
 

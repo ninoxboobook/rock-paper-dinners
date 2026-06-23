@@ -1,6 +1,7 @@
 import type { Venue } from '../types'
 import { cuisineEmoji } from '../lib/cuisine'
 import { useStore } from '../store/useStore'
+import { StarIcon } from '../lib/icons'
 
 interface Props {
   venue: Venue
@@ -29,7 +30,7 @@ export function VenueCard({ venue, onClick, compact }: Props) {
               toggleFavourite(venue.id)
             }}
           >
-            {fav ? '★' : '☆'}
+            <StarIcon size={22} weight={fav ? 'fill' : 'regular'} />
           </button>
         </div>
         <p className="card-meta">

@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { useStore, filterVenues } from '../store/useStore'
 import { VenueCard } from '../components/VenueCard'
 import { FilterSheet } from '../components/FilterSheet'
+import { FilterIcon, StarIcon, SearchIcon } from '../lib/icons'
 
 export function BrowseView() {
   const { venues, groups, suburbs, search, onlyShortlist, favourites } = useStore()
@@ -20,21 +21,27 @@ export function BrowseView() {
   return (
     <div className="view browse-view">
       <div className="browse-bar">
-        <input
-          className="search"
-          type="search"
-          placeholder="Search name, cuisine, suburb…"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
-        <button className="pill" onClick={() => setFilterOpen(true)}>
-          🎛{filterCount ? ` ${filterCount}` : ''}
+        <div className="search-wrap">
+          <SearchIcon className="search-icon" size={18} />
+          <input
+            className="search"
+            type="search"
+            placeholder="Search name, cuisine, suburb…"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+          />
+        </div>
+        <button className="pill pill--icon" onClick={() => setFilterOpen(true)} aria-label="Filters">
+          <FilterIcon size={18} weight="bold" />
+          {filterCount ? <span className="pill-count">{filterCount}</span> : null}
         </button>
         <button
-          className={`pill ${onlyShortlist ? 'pill--on' : ''}`}
+          className={`pill pill--icon ${onlyShortlist ? 'pill--on' : ''}`}
           onClick={() => setOnlyShortlist(!onlyShortlist)}
+          aria-label="Shortlist only"
         >
-          ★{favourites.length ? ` ${favourites.length}` : ''}
+          <StarIcon size={18} weight={onlyShortlist ? 'fill' : 'regular'} />
+          {favourites.length ? <span className="pill-count">{favourites.length}</span> : null}
         </button>
       </div>
 

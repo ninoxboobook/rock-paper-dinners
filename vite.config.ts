@@ -5,6 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 // Relative base so the build works on GitHub Pages, a subpath, or file:// preview.
 export default defineConfig({
   base: './',
+  build: { chunkSizeWarningLimit: 700 },
   plugins: [
     react(),
     VitePWA({

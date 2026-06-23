@@ -6,6 +6,7 @@ import { VenueCard } from '../components/VenueCard'
 import { useShake } from '../hooks/useShake'
 import { useStore, filterVenues } from '../store/useStore'
 import type { Venue } from '../types'
+import { FilterIcon, StarIcon, ShakeIcon, ConfettiIcon, SpinIcon, DirectionsIcon } from '../lib/icons'
 
 export function PlayView() {
   const { venues, groups, suburbs, search, onlyShortlist, favourites } = useStore()
@@ -45,13 +46,14 @@ export function PlayView() {
 
       <div className="pool-bar">
         <button className="pill" onClick={() => setFilterOpen(true)}>
-          🎛 Filters{filterCount ? ` · ${filterCount}` : ''}
+          <FilterIcon size={16} weight="bold" /> Filters{filterCount ? ` · ${filterCount}` : ''}
         </button>
         <button
           className={`pill ${onlyShortlist ? 'pill--on' : ''}`}
           onClick={() => setOnlyShortlist(!onlyShortlist)}
         >
-          ★ Shortlist{favourites.length ? ` · ${favourites.length}` : ''}
+          <StarIcon size={16} weight={onlyShortlist ? 'fill' : 'regular'} /> Shortlist
+          {favourites.length ? ` · ${favourites.length}` : ''}
         </button>
         <span className="pool-count">{pool.length} in the draw</span>
       </div>
@@ -73,16 +75,18 @@ export function PlayView() {
       {phase === 'result' && winner ? (
         <div className="result">
           <Confetti key={winKey} />
-          <p className="result-kicker">🎉 Tonight you&apos;re eating at</p>
+          <p className="result-kicker">
+            <ConfettiIcon size={18} weight="fill" /> Tonight you&apos;re eating at
+          </p>
           <div onClick={() => openVenue(winner.id)} className="result-card-wrap">
             <VenueCard venue={winner} onClick={() => openVenue(winner.id)} />
           </div>
           <div className="result-actions">
             <button className="btn btn--primary" onClick={doSpin}>
-              🎰 Spin again
+              <SpinIcon size={18} weight="bold" /> Spin again
             </button>
             <a className="btn btn--ghost" href={winner.mapsUrl} target="_blank" rel="noreferrer">
-              🗺️ Directions
+              <DirectionsIcon size={18} weight="fill" /> Directions
             </a>
           </div>
         </div>
@@ -98,10 +102,15 @@ export function PlayView() {
 
           {motionSupported && !enabled && (
             <button className="enable-shake" onClick={enable}>
-              📱 {needsPermission ? 'Enable shake-to-spin' : 'Turn on shake-to-spin'}
+              <ShakeIcon size={18} weight="fill" />{' '}
+              {needsPermission ? 'Enable shake-to-spin' : 'Turn on shake-to-spin'}
             </button>
           )}
-          {enabled && <p className="hint">Give your phone 3 good shakes 🤝</p>}
+          {enabled && (
+            <p className="hint hint--icon">
+              <ShakeIcon size={16} weight="fill" /> Give your phone 3 good shakes
+            </p>
+          )}
           {!motionSupported && <p className="hint">Tap SPIN — no motion sensor on this device.</p>}
           {permission === 'denied' && <p className="hint hint--warn">Motion access denied — use the SPIN button.</p>}
         </div>

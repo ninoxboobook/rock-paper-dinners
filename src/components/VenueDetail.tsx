@@ -1,5 +1,6 @@
 import { useStore } from '../store/useStore'
 import { cuisineEmoji } from '../lib/cuisine'
+import { MapsIcon, InstagramIcon, StarIcon } from '../lib/icons'
 
 export function VenueDetail() {
   const selectedId = useStore((s) => s.selectedId)
@@ -31,19 +32,23 @@ export function VenueDetail() {
         </div>
 
         {venue.description && <p className="sheet-desc">{venue.description}</p>}
-        {venue.address && <p className="sheet-address">📍 {venue.address}</p>}
+        {venue.address && (
+          <p className="sheet-address">
+            <MapsIcon size={15} weight="fill" /> {venue.address}
+          </p>
+        )}
 
         <div className="sheet-actions">
           <a className="btn btn--ghost" href={venue.mapsUrl} target="_blank" rel="noreferrer">
-            🗺️ Maps
+            <MapsIcon size={18} weight="fill" /> Maps
           </a>
           {venue.instagramUrl && (
             <a className="btn btn--ghost" href={venue.instagramUrl} target="_blank" rel="noreferrer">
-              📷 Instagram
+              <InstagramIcon size={18} /> Instagram
             </a>
           )}
           <button className={`btn ${fav ? 'btn--gold' : 'btn--ghost'}`} onClick={() => toggleFavourite(venue.id)}>
-            {fav ? '★ Shortlisted' : '☆ Shortlist'}
+            <StarIcon size={18} weight={fav ? 'fill' : 'regular'} /> {fav ? 'Shortlisted' : 'Shortlist'}
           </button>
         </div>
 
