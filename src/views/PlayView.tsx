@@ -1,0 +1,113 @@
+import { useMemo, useRef, useState } from 'react'
+import { SlotMachine, type SlotHandle } from '../components/SlotMachine'
+import { Confetti } from '../components/Confetti'
+import { FilterSheet } from '../components/FilterSheet'
+import { VenueCard } from '../components/VenueCard'
+import { useShake } from '../hooks/useShake'
+import { useStore, filterVenues } from '../store/useStore'
+import type { Venue } from '../types'
+
+export function PlayView() {
+  const { venues, groups, suburbs, search, onlyShortlist, favourites } = useStore()
+  const setOnlyShortlist = useStore((s) => s.setOnlyShortlist)
+  const openVenue = useStore((s) => s.openVenue)
+
+  const [phase, setPhase] = useState<'idle' | 'spinning' | 'result'>('idle')
+  const [winner, setWinner] = useState<Venue | null>(null)
+  const [winKey, setWinKey] = useState(0)
+  const [filterOpen, setFilterOpen] = useState(false)
+  const slotRef = useRef<SlotHandle>(null)
+
+  const pool = useMemo(
+    () => filterVenues(venues, { groups, suburbs, search, onlyShortlist, favourites }),
+    [venues, groups, suburbs, search, onlyShortlist, favourites],
+  )
+  const poolRef = useRef(pool)
+  poolRef.current = pool
+
+  const doSpin = () => {
+    if (poolRef.current.length === 0) return
+    slotRef.current?.spin()
+  }
+
+  const { motionSupported, needsPermission, enabled, permission, enable } = useShake(doSpin)
+
+  const filterCount = groups.length + suburbs.length
+
+  return (
+    <div className="view play-view">
+      <header className="play-header">
+        <h1 className="logo">
+          Rock<span className="logo-dot">·</span>Paper<span className="logo-dot">·</span>Dinners
+        </h1>
+        <p className="tagline">Shake to decide where you &amp; Jake eat.</p>
+      </header>
+
+      <div className="pool-bar">
+        <button className="pill" onClick={() => setFilterOpen(true)}>
+          🎛 Filters{filterCount ? ` · ${filterCount}` : ''}
+        </button>
+        <button
+          className={`pill ${onlyShortlist ? 'pill--on' : ''}`}
+          onClick={() => setOnlyShortlist(!onlyShortlist)}
+        >
+          ★ Shortlist{favourites.length ? ` · ${favourites.length}` : ''}
+        </button>
+        <span className="pool-count">{pool.length} in the draw</span>
+      </div>
+
+      <SlotMachine
+        ref={slotRef}
+        pool={pool}
+        onStart={() => {
+          setPhase('spinning')
+          setWinner(null)
+        }}
+        onResult={(v) => {
+          setWinner(v)
+          setPhase('result')
+          setWinKey((k) => k + 1)
+        }}
+      />
+
+      {phase === 'result' && winner ? (
+        <div className="result">
+          <Confetti key={winKey} />
+          <p className="result-kicker">🎉 Tonight you&apos;re eating at</p>
+          <div onClick={() => openVenue(winner.id)} className="result-card-wrap">
+            <VenueCard venue={winner} onClick={() => openVenue(winner.id)} />
+          </div>
+          <div className="result-actions">
+            <button className="btn btn--primary" onClick={doSpin}>
+              🎰 Spin again
+            </button>
+            <a className="btn btn--ghost" href={winner.mapsUrl} target="_blank" rel="noreferrer">
+              🗺️ Directions
+            </a>
+          </div>
+        </div>
+      ) : (
+        <div className="play-cta">
+          <button
+            className="spin-btn"
+            onClick={doSpin}
+            disabled={phase === 'spinning' || pool.length === 0}
+          >
+            {phase === 'spinning' ? 'Spinning…' : pool.length === 0 ? 'No venues match' : 'SPIN'}
+          </button>
+
+          {motionSupported && !enabled && (
+            <button className="enable-shake" onClick={enable}>
+              📱 {needsPermission ? 'Enable shake-to-spin' : 'Turn on shake-to-spin'}
+            </button>
+          )}
+          {enabled && <p className="hint">Give your phone 3 good shakes 🤝</p>}
+          {!motionSupported && <p className="hint">Tap SPIN — no motion sensor on this device.</p>}
+          {permission === 'denied' && <p className="hint hint--warn">Motion access denied — use the SPIN button.</p>}
+        </div>
+      )}
+
+      <FilterSheet open={filterOpen} onClose={() => setFilterOpen(false)} />
+    </div>
+  )
+}

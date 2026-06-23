@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vite
+
+# geocoder working files
+scripts/geocache.json
+scripts/geocode.log
+scripts/source.json
+
+# typescript build info
+*.tsbuildinfo
