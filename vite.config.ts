@@ -2,9 +2,10 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
-// Relative base so the build works on GitHub Pages, a subpath, or file:// preview.
+// BASE_PATH is set by the GitHub Pages workflow (e.g. "/rock-paper-dinners/").
+// Locally it falls back to relative so dev/preview work from root.
 export default defineConfig({
-  base: './',
+  base: process.env.BASE_PATH ?? './',
   build: { chunkSizeWarningLimit: 700 },
   plugins: [
     react(),
