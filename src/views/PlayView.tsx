@@ -41,7 +41,6 @@ export function PlayView() {
         <h1 className="logo">
           Rock<span className="logo-dot">·</span>Paper<span className="logo-dot">·</span>Dinners
         </h1>
-        <p className="tagline">Shake to decide where you &amp; Jake eat.</p>
       </header>
 
       <div className="pool-bar">
