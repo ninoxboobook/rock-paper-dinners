@@ -265,9 +265,9 @@
   "instagram": "a.littlejoy",
   "instagramUrl": "https://instagram.com/a.littlejoy",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=A+Little+Joy+CBD+Melbourne+Australia",
-  "lat": -37.8152834,
-  "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "lat": -37.8133703,
+  "lng": 144.9661505,
+  "geoPrecision": "street"
  },
  {
   "id": "antara-cbd",
@@ -310,9 +310,9 @@
   "instagram": "aunglo.melbourne",
   "instagramUrl": "https://instagram.com/aunglo.melbourne",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aung+Lo+CBD+Melbourne+Australia",
-  "lat": -37.8152834,
-  "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "lat": -37.8110376,
+  "lng": 144.9601824,
+  "geoPrecision": "street"
  },
  {
   "id": "bkk-cbd",
@@ -400,9 +400,9 @@
   "instagram": "bowltiful.noodles",
   "instagramUrl": "https://instagram.com/bowltiful.noodles",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bowltiful+Halal+Lanzhou+Beef+Noodle+CBD+Melbourne+Australia",
-  "lat": -37.8152834,
-  "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "lat": -37.8039403,
+  "lng": 144.9586161,
+  "geoPrecision": "street"
  },
  {
   "id": "butchers-diner-cbd",
@@ -475,9 +475,9 @@
   "instagram": "",
   "instagramUrl": "",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Commonplace+Coffee+Brewers+CBD+Melbourne+Australia",
-  "lat": -37.8152834,
-  "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "lat": -37.8151922,
+  "lng": 144.9541568,
+  "geoPrecision": "street"
  },
  {
   "id": "coppe-pan-japanese-bakery-cbd",
@@ -535,9 +535,9 @@
   "instagram": "disuko.melbourne",
   "instagramUrl": "https://instagram.com/disuko.melbourne",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Disuko+CBD+Melbourne+Australia",
-  "lat": -37.8152834,
-  "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "lat": -37.8133703,
+  "lng": 144.9661505,
+  "geoPrecision": "street"
  },
  {
   "id": "dohtonbori-cbd",
@@ -610,9 +610,9 @@
   "instagram": "eatalley.qv",
   "instagramUrl": "https://instagram.com/eatalley.qv",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=EatAlley+CBD+Melbourne+Australia",
-  "lat": -37.8152834,
-  "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "lat": -37.8106306,
+  "lng": 144.9656544,
+  "geoPrecision": "street"
  },
  {
   "id": "enelssie-cafe-grill-cbd",
@@ -730,9 +730,9 @@
   "instagram": "gozcity",
   "instagramUrl": "https://instagram.com/gozcity",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=G%C3%B6z+City+CBD+Melbourne+Australia",
-  "lat": -37.8152834,
-  "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "lat": -37.815958,
+  "lng": 144.961102,
+  "geoPrecision": "street"
  },
  {
   "id": "hansik-cbd",
@@ -745,9 +745,9 @@
   "instagram": "hansik_dang",
   "instagramUrl": "https://instagram.com/hansik_dang",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hansik+CBD+Melbourne+Australia",
-  "lat": -37.8152834,
-  "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "lat": -37.8086721,
+  "lng": 144.9629411,
+  "geoPrecision": "exact"
  },
  {
   "id": "heng-heng-thai-local-food-hall-cbd",
@@ -790,9 +790,9 @@
   "instagram": "hojiak.melbourne",
   "instagramUrl": "https://instagram.com/hojiak.melbourne",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ho+Jiak+Melbourne+CBD+Melbourne+Australia",
-  "lat": -37.8152834,
-  "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "lat": -37.8137422,
+  "lng": 144.9665146,
+  "geoPrecision": "street"
  },
  {
   "id": "hua-lu-peking-duck-cbd",
@@ -805,9 +805,9 @@
   "instagram": "hualu_peking_duck",
   "instagramUrl": "https://instagram.com/hualu_peking_duck",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hua+Lu+Peking+Duck+CBD+Melbourne+Australia",
-  "lat": -37.8152834,
-  "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "lat": -37.8089414,
+  "lng": 144.9619393,
+  "geoPrecision": "exact"
  },
  {
   "id": "ipoh-town-cbd",
@@ -865,9 +865,9 @@
   "instagram": "jom_melbourne",
   "instagramUrl": "https://instagram.com/jom_melbourne",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jom+CBD+Melbourne+Australia",
-  "lat": -37.8152834,
-  "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "lat": -37.8122252,
+  "lng": 144.9622387,
+  "geoPrecision": "street"
  },
  {
   "id": "jom-corner-cbd",
@@ -1045,9 +1045,9 @@
   "instagram": "luluckt",
   "instagramUrl": "https://instagram.com/luluckt",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lulu%27s+Char+Koay+Teow+CBD+Melbourne+Australia",
-  "lat": -37.8152834,
-  "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "lat": -37.8133468,
+  "lng": 144.9612634,
+  "geoPrecision": "street"
  },
  {
   "id": "maison-b-tard-cbd",
@@ -1105,9 +1105,9 @@
   "instagram": "marketlane",
   "instagramUrl": "https://instagram.com/marketlane",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Market+Lane+Coffee+CBD+Melbourne+Australia",
-  "lat": -37.8152834,
-  "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "lat": -37.8185901,
+  "lng": 144.9559503,
+  "geoPrecision": "street"
  },
  {
   "id": "ma-z-y-cacao-cbd",
@@ -1300,9 +1300,9 @@
   "instagram": "oden_australia",
   "instagramUrl": "https://instagram.com/oden_australia",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Oden+CBD+Melbourne+Australia",
-  "lat": -37.8152834,
-  "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "lat": -37.8162149,
+  "lng": 144.954013,
+  "geoPrecision": "street"
  },
  {
   "id": "ondo-cbd",
@@ -1360,9 +1360,9 @@
   "instagram": "osakabench_au",
   "instagramUrl": "https://instagram.com/osakabench_au",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Osaka+Bench+CBD+Melbourne+Australia",
-  "lat": -37.8152834,
-  "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "lat": -37.8146395,
+  "lng": 144.9732306,
+  "geoPrecision": "street"
  },
  {
   "id": "overlay-coffee-cbd",
@@ -1570,9 +1570,9 @@
   "instagram": "salspizzaaus",
   "instagramUrl": "https://instagram.com/salspizzaaus",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sal%27s+Authentic+New+York+Pizza+CBD+Melbourne+Australia",
-  "lat": -37.8152834,
-  "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "lat": -37.8146395,
+  "lng": 144.9732306,
+  "geoPrecision": "street"
  },
  {
   "id": "soi-38-cbd",
@@ -1765,9 +1765,9 @@
   "instagram": "atsu.melb",
   "instagramUrl": "https://instagram.com/atsu.melb",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Atsu+Carlton+Melbourne+Australia",
-  "lat": -37.8004228,
-  "lng": 144.9684343,
-  "geoPrecision": "suburb"
+  "lat": -37.8024385,
+  "lng": 144.96288,
+  "geoPrecision": "street"
  },
  {
   "id": "attakai-carlton-carlton",
@@ -1840,9 +1840,9 @@
   "instagram": "leonieupstairs",
   "instagramUrl": "https://instagram.com/leonieupstairs",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Leonie+Upstairs+Carlton+Melbourne+Australia",
-  "lat": -37.8004228,
-  "lng": 144.9684343,
-  "geoPrecision": "suburb"
+  "lat": -37.8024385,
+  "lng": 144.96288,
+  "geoPrecision": "street"
  },
  {
   "id": "mandina-kitchen-carlton",
@@ -2110,9 +2110,9 @@
   "instagram": "inicoffee_melbourne",
   "instagramUrl": "https://instagram.com/inicoffee_melbourne",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=INI+Coffee+Collingwood+Melbourne+Australia",
-  "lat": -37.802104,
-  "lng": 144.9881387,
-  "geoPrecision": "suburb"
+  "lat": -37.8065359,
+  "lng": 144.9847559,
+  "geoPrecision": "street"
  },
  {
   "id": "lulu-me-cheesecakes-collingwood",
@@ -2140,9 +2140,9 @@
   "instagram": "n.leebakery",
   "instagramUrl": "https://instagram.com/n.leebakery",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=N+Lee+Bakery+Collingwood+Melbourne+Australia",
-  "lat": -37.802104,
-  "lng": 144.9881387,
-  "geoPrecision": "suburb"
+  "lat": -37.7944622,
+  "lng": 144.9850511,
+  "geoPrecision": "street"
  },
  {
   "id": "pasta-classica-collingwood",
@@ -2455,9 +2455,9 @@
   "instagram": "",
   "instagramUrl": "",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kariton+Sorbetes+Footscray+Melbourne+Australia",
-  "lat": -37.7981339,
-  "lng": 144.897345,
-  "geoPrecision": "suburb"
+  "lat": -37.8004927,
+  "lng": 144.9010615,
+  "geoPrecision": "street"
  },
  {
   "id": "matsu-footscray",
@@ -2695,9 +2695,9 @@
   "instagram": "manze_melbourne",
   "instagramUrl": "https://instagram.com/manze_melbourne",
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Manz%C3%A9+North+Melbourne+Melbourne+Australia",
-  "lat": -37.8076092,
-  "lng": 144.9423514,
-  "geoPrecision": "suburb"
+  "lat": -37.7967735,
+  "lng": 144.9506529,
+  "geoPrecision": "street"
  },
  {
   "id": "on-dol-korean-cuisine-north-melbourne",

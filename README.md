@@ -18,9 +18,13 @@ A installable **PWA** — add it to your home screen and it works offline.
 
 | precision | meaning |
 |-----------|---------|
-| `exact`   | geocoded to the street address (180) |
-| `suburb`  | only a suburb-level pin was found (42) |
-| `none`    | no reliable coordinates — shows in lists, not on the map (2) |
+| `exact`   | geocoded to a street address (183) |
+| `street`  | placed on the named street (no house number) (20) |
+| `suburb`  | only a suburb-level pin — pop-ups, chains, or no street in the blurb (21) |
+| `none`    | no coordinates (0) |
+
+Street/suburb upgrades are sanity-checked: a geocode more than 4 km from the
+suburb centroid is rejected (catches wrong-street and interstate mismatches).
 
 ## Stack
 

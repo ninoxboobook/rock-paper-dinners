@@ -11,7 +11,7 @@ export interface Venue {
   mapsUrl: string
   lat: number | null
   lng: number | null
-  geoPrecision: 'exact' | 'suburb' | 'none'
+  geoPrecision: 'exact' | 'street' | 'suburb' | 'none'
 }
 
 export type ViewKey = 'play' | 'map' | 'browse'
