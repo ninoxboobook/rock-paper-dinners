@@ -225,6 +225,11 @@ a { color: inherit; text-decoration: none; }
 .card-cuisine { color: var(--gold); font-weight: 600; overflow: hidden; text-overflow: ellipsis; flex-shrink: 1; min-width: 0; }
 .card-suburb { color: var(--muted); flex-shrink: 0; }
 .dot { color: var(--muted); flex-shrink: 0; }
+.card-address {
+  display: flex; align-items: center; gap: 4px; margin-top: 5px;
+  color: var(--muted); font-size: var(--text-xs); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.card-address svg { flex: none; opacity: 0.85; }
 /* supporting: description, set quietly with comfortable leading */
 .card-desc {
   color: var(--muted); font-size: var(--text-sm); line-height: var(--leading-normal); margin-top: var(--space-2);

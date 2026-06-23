@@ -12,7 +12,7 @@ export function VenueDetail() {
   const venue = venues.find((v) => v.id === selectedId)
   if (!venue) return null
   const fav = favourites.includes(venue.id)
-  const Cuisine = cuisineIcon(venue.cuisine)
+  const Cuisine = cuisineIcon(venue.cuisineShort)
 
   return (
     <div className="sheet-backdrop" onClick={close}>

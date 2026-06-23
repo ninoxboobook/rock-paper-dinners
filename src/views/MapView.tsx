@@ -76,7 +76,7 @@ export function MapView() {
             <Marker
               key={v.id}
               position={[v.lat as number, v.lng as number]}
-              icon={pinIcon(v.cuisine)}
+              icon={pinIcon(v.cuisineShort)}
               eventHandlers={{ click: () => openVenue(v.id) }}
             />
           ))}
