@@ -1,20 +1,5 @@
 [
  {
-  "id": "rei",
-  "name": "Rei",
-  "cuisine": "Modern Australian-Japanese / izakaya",
-  "suburb": "",
-  "city": "Melbourne",
-  "description": "Confirmed real via @rei.melb Instagram and Melbourne Food & Wine coverage; appears to operate as a pop-up/residency (Deeds Brewery taproom, Fitzroy) rather than a single fixed address, so suburb is unconfirmed.",
-  "address": "",
-  "instagram": "rei.melb",
-  "instagramUrl": "https://instagram.com/rei.melb",
-  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rei+Melbourne+Australia",
-  "lat": null,
-  "lng": null,
-  "geoPrecision": "none"
- },
- {
   "id": "cam-s-kiosk-abbotsford",
   "name": "Cam's Kiosk",
   "cuisine": "Cafe by day, wine bar / European share plates by night",
@@ -1455,6 +1440,21 @@
   "geoPrecision": "exact"
  },
  {
+  "id": "publique-bakery-cbd-queen-victoria-market",
+  "name": "Publique Bakery",
+  "cuisine": "French boulangerie & patisserie",
+  "suburb": "CBD",
+  "city": "Melbourne",
+  "description": "At 91-93 Victoria St opposite Queen Victoria Market (down Blender Lane); second location after the original Preston Market boulangerie. Known for the Pain de Ruban.",
+  "address": "91-93 Victoria St",
+  "instagram": "publiquebakery",
+  "instagramUrl": "https://instagram.com/publiquebakery",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Publique+Bakery+CBD+%28Queen+Victoria+Market%29+Melbourne+Australia",
+  "lat": -37.806245,
+  "lng": 144.9577948,
+  "geoPrecision": "exact"
+ },
+ {
   "id": "queen-st-bb-cbd",
   "name": "Queen St. BB",
   "cuisine": "Italian dessert bar / self-serve tiramisu & gelato",
@@ -1723,21 +1723,6 @@
   "lat": -37.811867,
   "lng": 144.969217,
   "geoPrecision": "exact"
- },
- {
-  "id": "publique-bakery-cbd-queen-victoria-market",
-  "name": "Publique Bakery",
-  "cuisine": "French boulangerie & patisserie",
-  "suburb": "CBD (Queen Victoria Market)",
-  "city": "Melbourne",
-  "description": "At 91-93 Victoria St opposite Queen Victoria Market (down Blender Lane); second location after the original Preston Market boulangerie. Known for the Pain de Ruban.",
-  "address": "91-93 Victoria St",
-  "instagram": "publiquebakery",
-  "instagramUrl": "https://instagram.com/publiquebakery",
-  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Publique+Bakery+CBD+%28Queen+Victoria+Market%29+Melbourne+Australia",
-  "lat": null,
-  "lng": null,
-  "geoPrecision": "none"
  },
  {
   "id": "hakka-cuisine-camberwell",
@@ -2353,6 +2338,21 @@
   "lat": -37.8061982,
   "lng": 144.9827902,
   "geoPrecision": "exact"
+ },
+ {
+  "id": "rei",
+  "name": "Rei",
+  "cuisine": "Modern Australian-Japanese / izakaya",
+  "suburb": "Fitzroy",
+  "city": "Melbourne",
+  "description": "Confirmed real via @rei.melb Instagram and Melbourne Food & Wine coverage; appears to operate as a pop-up/residency (Deeds Brewery taproom, Fitzroy) rather than a single fixed address, so suburb is unconfirmed.",
+  "address": "",
+  "instagram": "rei.melb",
+  "instagramUrl": "https://instagram.com/rei.melb",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rei+Melbourne+Australia",
+  "lat": -37.8010382,
+  "lng": 144.9792611,
+  "geoPrecision": "suburb"
  },
  {
   "id": "st-andrews-hotel-fitzroy",

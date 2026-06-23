@@ -1,7 +1,9 @@
 import { useMemo, useState } from 'react'
 import { MapContainer, TileLayer, Marker } from 'react-leaflet'
+import MarkerClusterGroup from 'react-leaflet-cluster'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+import 'leaflet.markercluster/dist/MarkerCluster.css'
 import { useStore, filterVenues } from '../store/useStore'
 import { cuisineEmoji } from '../lib/cuisine'
 import { FilterSheet } from '../components/FilterSheet'
@@ -15,6 +17,18 @@ function emojiIcon(emoji: string) {
     iconSize: [40, 40],
     iconAnchor: [20, 38],
     popupAnchor: [0, -36],
+  })
+}
+
+// Themed cluster bubble sized by how many venues it holds.
+function clusterIcon(cluster: { getChildCount: () => number }) {
+  const count = cluster.getChildCount()
+  const size = count < 10 ? 42 : count < 30 ? 52 : 62
+  const tier = count < 10 ? 'sm' : count < 30 ? 'md' : 'lg'
+  return L.divIcon({
+    html: `<div class="cluster cluster--${tier}"><span>${count}</span></div>`,
+    className: 'cluster-wrap',
+    iconSize: L.point(size, size, true),
   })
 }
 
@@ -47,14 +61,22 @@ export function MapView() {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        {pins.map((v) => (
-          <Marker
-            key={v.id}
-            position={[v.lat as number, v.lng as number]}
-            icon={emojiIcon(cuisineEmoji(v.cuisine))}
-            eventHandlers={{ click: () => openVenue(v.id) }}
-          />
-        ))}
+        <MarkerClusterGroup
+          iconCreateFunction={clusterIcon}
+          maxClusterRadius={55}
+          showCoverageOnHover={false}
+          spiderfyOnMaxZoom
+          chunkedLoading
+        >
+          {pins.map((v) => (
+            <Marker
+              key={v.id}
+              position={[v.lat as number, v.lng as number]}
+              icon={emojiIcon(cuisineEmoji(v.cuisine))}
+              eventHandlers={{ click: () => openVenue(v.id) }}
+            />
+          ))}
+        </MarkerClusterGroup>
       </MapContainer>
 
       <FilterSheet open={filterOpen} onClose={() => setFilterOpen(false)} />
