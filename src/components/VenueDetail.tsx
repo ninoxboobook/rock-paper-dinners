@@ -1,5 +1,5 @@
 import { useStore } from '../store/useStore'
-import { cuisineEmoji } from '../lib/cuisine'
+import { cuisineIcon } from '../lib/cuisineIcon'
 import { MapsIcon, InstagramIcon, StarIcon } from '../lib/icons'
 
 export function VenueDetail() {
@@ -12,6 +12,7 @@ export function VenueDetail() {
   const venue = venues.find((v) => v.id === selectedId)
   if (!venue) return null
   const fav = favourites.includes(venue.id)
+  const Cuisine = cuisineIcon(venue.cuisine)
 
   return (
     <div className="sheet-backdrop" onClick={close}>
@@ -19,7 +20,7 @@ export function VenueDetail() {
         <div className="sheet-grip" />
         <div className="sheet-hero">
           <div className="sheet-emoji" aria-hidden>
-            {cuisineEmoji(venue.cuisine)}
+            <Cuisine size={34} weight="fill" />
           </div>
           <div>
             <h2 className="sheet-name">{venue.name}</h2>

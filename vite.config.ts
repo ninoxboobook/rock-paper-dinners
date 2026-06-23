@@ -15,8 +15,8 @@ export default defineConfig({
         name: 'Rock Paper Dinners',
         short_name: 'RPD',
         description: 'Shake your phone to decide where to eat.',
-        theme_color: '#0d0b1f',
-        background_color: '#0d0b1f',
+        theme_color: '#16100b',
+        background_color: '#16100b',
         display: 'standalone',
         orientation: 'portrait',
         start_url: './',
@@ -32,11 +32,11 @@ export default defineConfig({
         // Cache OSM map tiles so the map works offline-ish after first load.
         runtimeCaching: [
           {
-            urlPattern: /^https:\/\/[a-c]\.tile\.openstreetmap\.org\/.*/i,
+            urlPattern: /^https:\/\/[a-d]\.basemaps\.cartocdn\.com\/.*/i,
             handler: 'CacheFirst',
             options: {
-              cacheName: 'osm-tiles',
-              expiration: { maxEntries: 500, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              cacheName: 'carto-tiles',
+              expiration: { maxEntries: 600, maxAgeSeconds: 60 * 60 * 24 * 30 },
             },
           },
         ],

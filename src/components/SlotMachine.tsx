@@ -1,11 +1,32 @@
 import { forwardRef, useEffect, useImperativeHandle, useRef, useState } from 'react'
+import { Cherries, Bell, Diamond, Crown, Coin, Star, type Icon } from '@phosphor-icons/react'
 import type { Venue } from '../types'
-import { cuisineEmoji } from '../lib/cuisine'
 
 const TILE = 84 // px, must match .reel-tile height in CSS
 const STRIP = 34 // tiles per reel strip
 const LAND = STRIP - 2 // index the winner lands on (centre of the 3-tile window)
 const DURATIONS = [2200, 2700, 3200] // staggered reel stop times (ms)
+
+type Tone = 'red' | 'gold' | 'cream'
+interface Sym {
+  key: string
+  kind: 'text' | 'icon'
+  text?: string
+  Icon?: Icon
+  tone: Tone
+}
+
+// A cohesive classic-slot symbol set — typographic 7 / BAR plus Phosphor symbols.
+const SYMBOLS: Sym[] = [
+  { key: 'seven', kind: 'text', text: '7', tone: 'red' },
+  { key: 'bar', kind: 'text', text: 'BAR', tone: 'gold' },
+  { key: 'cherries', kind: 'icon', Icon: Cherries, tone: 'red' },
+  { key: 'bell', kind: 'icon', Icon: Bell, tone: 'gold' },
+  { key: 'diamond', kind: 'icon', Icon: Diamond, tone: 'cream' },
+  { key: 'crown', kind: 'icon', Icon: Crown, tone: 'gold' },
+  { key: 'coin', kind: 'icon', Icon: Coin, tone: 'gold' },
+  { key: 'star', kind: 'icon', Icon: Star, tone: 'gold' },
+]
 
 export interface SlotHandle {
   spin: () => void
@@ -17,14 +38,11 @@ interface Props {
   onResult: (v: Venue) => void
 }
 
-function randomEmoji(pool: Venue[]): string {
-  if (!pool.length) return '🍽️'
-  return cuisineEmoji(pool[Math.floor(Math.random() * pool.length)].cuisine)
-}
+const randomSym = () => SYMBOLS[Math.floor(Math.random() * SYMBOLS.length)]
 
-function buildStrip(pool: Venue[], winnerEmoji: string): string[] {
-  const strip = Array.from({ length: STRIP }, () => randomEmoji(pool))
-  strip[LAND] = winnerEmoji
+function buildStrip(jackpot: Sym): Sym[] {
+  const strip = Array.from({ length: STRIP }, () => randomSym())
+  strip[LAND] = jackpot
   return strip
 }
 
@@ -38,48 +56,50 @@ function vibrate(ms: number | number[]) {
   }
 }
 
+function Tile({ s }: { s: Sym }) {
+  if (s.kind === 'text') {
+    return <span className={`reel-sym reel-sym--text reel-sym--${s.tone}`}>{s.text}</span>
+  }
+  const I = s.Icon!
+  return (
+    <span className={`reel-sym reel-sym--${s.tone}`}>
+      <I size={46} weight="fill" />
+    </span>
+  )
+}
+
 export const SlotMachine = forwardRef<SlotHandle, Props>(function SlotMachine(
   { pool, onStart, onResult },
   ref,
 ) {
-  const [strips, setStrips] = useState<string[][]>([
-    buildStrip([], '🍜'),
-    buildStrip([], '🍕'),
-    buildStrip([], '🍣'),
+  const [strips, setStrips] = useState<Sym[][]>([
+    buildStrip(SYMBOLS[0]),
+    buildStrip(SYMBOLS[2]),
+    buildStrip(SYMBOLS[4]),
   ])
   const [spinning, setSpinning] = useState(false)
   const hasSpun = useRef(false)
   const reelRefs = [useRef<HTMLDivElement>(null), useRef<HTMLDivElement>(null), useRef<HTMLDivElement>(null)]
 
-  // Seed idle reels with appetising emojis from the pool (instead of blank plates),
-  // once before the first spin.
+  // Seed idle reels with a varied, non-matching set once.
   useEffect(() => {
-    if (hasSpun.current || spinning || pool.length === 0) return
-    setStrips([
-      buildStrip(pool, randomEmoji(pool)),
-      buildStrip(pool, randomEmoji(pool)),
-      buildStrip(pool, randomEmoji(pool)),
-    ])
-  }, [pool, spinning])
+    if (hasSpun.current || spinning) return
+    setStrips([buildStrip(randomSym()), buildStrip(randomSym()), buildStrip(randomSym())])
+  }, [spinning])
 
   useImperativeHandle(ref, () => ({
     spin() {
       if (spinning || pool.length === 0) return
-      hasSpun.current = true
       setSpinning(true)
+      hasSpun.current = true
       onStart()
       vibrate(20)
 
       const winner = pool[Math.floor(Math.random() * pool.length)]
-      const winnerEmoji = cuisineEmoji(winner.cuisine)
-      const newStrips = [
-        buildStrip(pool, winnerEmoji),
-        buildStrip(pool, winnerEmoji),
-        buildStrip(pool, winnerEmoji),
-      ]
-      setStrips(newStrips)
+      // every spin is a jackpot: all three reels land on the same random symbol
+      const jackpot = randomSym()
+      setStrips([buildStrip(jackpot), buildStrip(jackpot), buildStrip(jackpot)])
 
-      // Reset reels to top with no transition, then animate to the landing offset.
       requestAnimationFrame(() => {
         reelRefs.forEach((r) => {
           const el = r.current
@@ -87,20 +107,18 @@ export const SlotMachine = forwardRef<SlotHandle, Props>(function SlotMachine(
           el.style.transition = 'none'
           el.style.transform = 'translateY(0px)'
         })
-        // force reflow so the reset transform is committed before we animate
         void reelRefs[0].current?.offsetHeight
         requestAnimationFrame(() => {
           reelRefs.forEach((r, i) => {
             const el = r.current
             if (!el) return
-            const offset = -(LAND - 1) * TILE // bring LAND tile into the centre row
+            const offset = -(LAND - 1) * TILE
             el.style.transition = `transform ${DURATIONS[i]}ms cubic-bezier(.12,.74,.2,1)`
             el.style.transform = `translateY(${offset}px)`
           })
         })
       })
 
-      // settle each reel with a tick of haptic feedback
       DURATIONS.forEach((d, i) => {
         window.setTimeout(() => vibrate(i === DURATIONS.length - 1 ? [40, 30, 90] : 25), d)
       })
@@ -117,9 +135,9 @@ export const SlotMachine = forwardRef<SlotHandle, Props>(function SlotMachine(
         {strips.map((strip, i) => (
           <div className="reel-window" key={i}>
             <div className="reel-strip" ref={reelRefs[i]}>
-              {strip.map((emoji, j) => (
+              {strip.map((s, j) => (
                 <div className="reel-tile" key={j}>
-                  <span>{emoji}</span>
+                  <Tile s={s} />
                 </div>
               ))}
             </div>

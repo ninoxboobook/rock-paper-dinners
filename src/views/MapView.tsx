@@ -1,23 +1,25 @@
-import { useMemo, useState } from 'react'
+import { createElement, useMemo, useState } from 'react'
+import { renderToStaticMarkup } from 'react-dom/server'
 import { MapContainer, TileLayer, Marker } from 'react-leaflet'
 import MarkerClusterGroup from 'react-leaflet-cluster'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import 'leaflet.markercluster/dist/MarkerCluster.css'
 import { useStore, filterVenues } from '../store/useStore'
-import { cuisineEmoji } from '../lib/cuisine'
+import { cuisineIcon } from '../lib/cuisineIcon'
 import { FilterSheet } from '../components/FilterSheet'
 import { FilterIcon } from '../lib/icons'
 
 const MELB_CENTER: [number, number] = [-37.8136, 144.9631]
 
-function emojiIcon(emoji: string) {
+function pinIcon(cuisine: string) {
+  const svg = renderToStaticMarkup(createElement(cuisineIcon(cuisine), { size: 17, weight: 'fill' }))
   return L.divIcon({
-    className: 'emoji-pin-wrap',
-    html: `<div class="emoji-pin">${emoji}</div>`,
-    iconSize: [40, 40],
-    iconAnchor: [20, 38],
-    popupAnchor: [0, -36],
+    className: 'pin-wrap',
+    html: `<div class="map-pin">${svg}</div>`,
+    iconSize: [34, 34],
+    iconAnchor: [17, 32],
+    popupAnchor: [0, -30],
   })
 }
 
@@ -59,8 +61,9 @@ export function MapView() {
 
       <MapContainer center={MELB_CENTER} zoom={12} className="map" zoomControl={false} preferCanvas>
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
+          url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+          subdomains="abcd"
         />
         <MarkerClusterGroup
           iconCreateFunction={clusterIcon}
@@ -73,7 +76,7 @@ export function MapView() {
             <Marker
               key={v.id}
               position={[v.lat as number, v.lng as number]}
-              icon={emojiIcon(cuisineEmoji(v.cuisine))}
+              icon={pinIcon(v.cuisine)}
               eventHandlers={{ click: () => openVenue(v.id) }}
             />
           ))}

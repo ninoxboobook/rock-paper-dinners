@@ -1,5 +1,5 @@
 import type { Venue } from '../types'
-import { cuisineEmoji } from '../lib/cuisine'
+import { cuisineIcon } from '../lib/cuisineIcon'
 import { useStore } from '../store/useStore'
 import { StarIcon } from '../lib/icons'
 
@@ -13,11 +13,12 @@ export function VenueCard({ venue, onClick, compact }: Props) {
   const favourites = useStore((s) => s.favourites)
   const toggleFavourite = useStore((s) => s.toggleFavourite)
   const fav = favourites.includes(venue.id)
+  const Cuisine = cuisineIcon(venue.cuisine)
 
   return (
     <article className={`card ${compact ? 'card--compact' : ''}`} onClick={onClick}>
       <div className="card-emoji" aria-hidden>
-        {cuisineEmoji(venue.cuisine)}
+        <Cuisine size={26} weight="fill" />
       </div>
       <div className="card-body">
         <div className="card-head">
