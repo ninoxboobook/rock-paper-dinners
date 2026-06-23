@@ -2,6 +2,7 @@ export interface Venue {
   id: string
   name: string
   cuisine: string
+  cuisineShort: string
   suburb: string
   city: string
   description: string

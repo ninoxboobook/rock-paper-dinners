@@ -35,7 +35,7 @@ export function VenueCard({ venue, onClick, compact }: Props) {
           </button>
         </div>
         <p className="card-meta">
-          <span className="card-cuisine">{venue.cuisine}</span>
+          <span className="card-cuisine">{venue.cuisineShort}</span>
           {venue.suburb && (
             <>
               <span className="dot">·</span>

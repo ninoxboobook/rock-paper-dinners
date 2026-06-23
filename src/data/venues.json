@@ -12,7 +12,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cam%27s+Kiosk+Abbotsford+Melbourne+Australia",
   "lat": -37.8035316,
   "lng": 145.0048929,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Cafe & wine bar"
  },
  {
   "id": "urbanstead-abbotsford",
@@ -27,7 +28,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Urbanstead+Abbotsford+Melbourne+Australia",
   "lat": -37.8074085,
   "lng": 144.9929792,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Bakery & cafe"
  },
  {
   "id": "andrew-s-hamburgers-albert-park",
@@ -42,7 +44,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Andrew%27s+Hamburgers+Albert+Park+Melbourne+Australia",
   "lat": -37.840618,
   "lng": 144.9552957,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Burgers"
  },
  {
   "id": "bistro-marigold-armadale",
@@ -57,7 +60,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bistro+Marigold+Armadale+Melbourne+Australia",
   "lat": -37.8563442,
   "lng": 145.0193207,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Chinese-French"
  },
  {
   "id": "piccolo-vicolo-ascot-vale",
@@ -72,7 +76,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Piccolo+Vicolo+Ascot+Vale+Melbourne+Australia",
   "lat": -37.776533,
   "lng": 144.9282765,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Italian cafe"
  },
  {
   "id": "the-mazu-cafe-balwyn",
@@ -87,7 +92,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Mazu+Cafe+Balwyn+Melbourne+Australia",
   "lat": -37.8133095,
   "lng": 145.0865591,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Taiwanese cafe"
  },
  {
   "id": "chaozhou-malaya-bistro-cafe-balwyn-north",
@@ -102,7 +108,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chaozhou+Malaya+Bistro+Cafe+Balwyn+North+Melbourne+Australia",
   "lat": -37.7930132,
   "lng": 145.0713237,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Teochew"
  },
  {
   "id": "hong-s-dumplings-box-hill-south",
@@ -117,7 +124,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hong%27s+Dumplings+Box+Hill+South+Melbourne+Australia",
   "lat": -37.8288409,
   "lng": 145.1214003,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Chinese dumplings"
  },
  {
   "id": "chooka-s-brunswick",
@@ -132,7 +140,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chooka%27s+Brunswick+Melbourne+Australia",
   "lat": -37.7660655,
   "lng": 144.9615291,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese cafe"
  },
  {
   "id": "cumb-brunswick",
@@ -147,7 +156,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cumb%C3%A9+Brunswick+Melbourne+Australia",
   "lat": -37.7642078,
   "lng": 144.9624778,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Mexican tortas"
  },
  {
   "id": "good-boys-deli-brunswick",
@@ -162,7 +172,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Good+Boys+Deli+Brunswick+Melbourne+Australia",
   "lat": -37.7657686,
   "lng": 144.9611191,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Deli"
  },
  {
   "id": "lunar-by-hikari-brunswick",
@@ -177,7 +188,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lunar+by+Hikari+Brunswick+Melbourne+Australia",
   "lat": -37.7672775,
   "lng": 144.962303,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese cafe"
  },
  {
   "id": "alex-bake-3057-brunswick-east",
@@ -192,7 +204,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Alex+Bake+3057+Brunswick+East+Melbourne+Australia",
   "lat": -37.7583837,
   "lng": 144.9789722,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Artisan bakery"
  },
  {
   "id": "charrd-brunswick-east",
@@ -207,7 +220,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Charrd+Brunswick+East+Melbourne+Australia",
   "lat": -37.7688802,
   "lng": 144.9776825,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Burgers"
  },
  {
   "id": "daphne-brunswick-east",
@@ -222,7 +236,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Daphne+Brunswick+East+Melbourne+Australia",
   "lat": -37.7770324,
   "lng": 144.9711176,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Pub"
  },
  {
   "id": "old-palm-liquor-brunswick-east",
@@ -237,7 +252,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Old+Palm+Liquor+Brunswick+East+Melbourne+Australia",
   "lat": -37.7739788,
   "lng": 144.9711112,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "South African"
  },
  {
   "id": "sani-brunswick-east",
@@ -252,7 +268,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sani+Brunswick+East+Melbourne+Australia",
   "lat": -37.7770443,
   "lng": 144.9706301,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Specialty coffee"
  },
  {
   "id": "a-little-joy-cbd",
@@ -267,7 +284,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=A+Little+Joy+CBD+Melbourne+Australia",
   "lat": -37.8133703,
   "lng": 144.9661505,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Shanghainese"
  },
  {
   "id": "antara-cbd",
@@ -282,7 +300,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Antara+CBD+Melbourne+Australia",
   "lat": -37.8126127,
   "lng": 144.9711127,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Modern Australian"
  },
  {
   "id": "attakai-garden-cbd",
@@ -297,7 +316,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Attakai+Garden+CBD+Melbourne+Australia",
   "lat": -37.8151875,
   "lng": 144.9648449,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Matcha cafe"
  },
  {
   "id": "aung-lo-cbd",
@@ -312,7 +332,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aung+Lo+CBD+Melbourne+Australia",
   "lat": -37.8110376,
   "lng": 144.9601824,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Thai-Japanese BBQ"
  },
  {
   "id": "bkk-cbd",
@@ -327,7 +348,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BKK+CBD+Melbourne+Australia",
   "lat": -37.8115549,
   "lng": 144.964216,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Thai BBQ"
  },
  {
   "id": "bakemono-bakers-cbd",
@@ -342,7 +364,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bakemono+Bakers+CBD+Melbourne+Australia",
   "lat": -37.8108299,
   "lng": 144.9638072,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese bakery"
  },
  {
   "id": "bing-chillin-cbd",
@@ -357,7 +380,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bing+Chillin+CBD+Melbourne+Australia",
   "lat": -37.8152834,
   "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Korean dessert"
  },
  {
   "id": "bloomwood-coffee-food-cbd",
@@ -372,7 +396,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bloomwood+Coffee+%26+Food+CBD+Melbourne+Australia",
   "lat": -37.8131449,
   "lng": 144.9713214,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Specialty coffee"
  },
  {
   "id": "boon-choou-cbd",
@@ -387,7 +412,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Boon+Choou+CBD+Melbourne+Australia",
   "lat": -37.811833,
   "lng": 144.9667007,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Thai"
  },
  {
   "id": "bowltiful-halal-lanzhou-beef-noodle-cbd",
@@ -402,7 +428,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bowltiful+Halal+Lanzhou+Beef+Noodle+CBD+Melbourne+Australia",
   "lat": -37.8039403,
   "lng": 144.9586161,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Lanzhou noodles"
  },
  {
   "id": "butchers-diner-cbd",
@@ -417,7 +444,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Butchers+Diner+CBD+Melbourne+Australia",
   "lat": -37.8113257,
   "lng": 144.9727334,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "American diner"
  },
  {
   "id": "caffe-e-torta-cbd",
@@ -432,7 +460,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caffe+E+Torta+CBD+Melbourne+Australia",
   "lat": -37.8149135,
   "lng": 144.9641732,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Italian cafe"
  },
  {
   "id": "caretaker-s-cottage-cbd",
@@ -447,7 +476,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caretaker%27s+Cottage+CBD+Melbourne+Australia",
   "lat": -37.8096405,
   "lng": 144.967837,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Cocktail bar"
  },
  {
   "id": "common-cuts-cbd",
@@ -462,7 +492,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Common+Cuts+CBD+Melbourne+Australia",
   "lat": -37.8076069,
   "lng": 144.9660168,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Steakhouse"
  },
  {
   "id": "commonplace-coffee-brewers-cbd",
@@ -477,7 +508,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Commonplace+Coffee+Brewers+CBD+Melbourne+Australia",
   "lat": -37.8151922,
   "lng": 144.9541568,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Specialty coffee"
  },
  {
   "id": "coppe-pan-japanese-bakery-cbd",
@@ -492,7 +524,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Coppe+Pan+Japanese+Bakery+CBD+Melbourne+Australia",
   "lat": -37.8107986,
   "lng": 144.9590574,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese bakery"
  },
  {
   "id": "crystal-jade-restaurant-cbd",
@@ -507,7 +540,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Crystal+Jade+Restaurant+CBD+Melbourne+Australia",
   "lat": -37.8157822,
   "lng": 144.9539613,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Cantonese yum cha"
  },
  {
   "id": "dao-noodle-cbd",
@@ -522,7 +556,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dao+Noodle+CBD+Melbourne+Australia",
   "lat": -37.8118126,
   "lng": 144.9602182,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Shanxi noodles"
  },
  {
   "id": "disuko-cbd",
@@ -537,7 +572,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Disuko+CBD+Melbourne+Australia",
   "lat": -37.8133703,
   "lng": 144.9661505,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Japanese izakaya"
  },
  {
   "id": "dohtonbori-cbd",
@@ -552,7 +588,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dohtonbori+CBD+Melbourne+Australia",
   "lat": -37.8127605,
   "lng": 144.9689638,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese okonomiyaki"
  },
  {
   "id": "doju-cbd",
@@ -567,7 +604,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Doju+CBD+Melbourne+Australia",
   "lat": -37.8169532,
   "lng": 144.9570737,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Modern Korean"
  },
  {
   "id": "dongdaemoon-cbd",
@@ -582,7 +620,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dongdaemoon+CBD+Melbourne+Australia",
   "lat": -37.8129595,
   "lng": 144.9555904,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Korean"
  },
  {
   "id": "earl-canteen-cbd",
@@ -597,7 +636,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=EARL+Canteen+CBD+Melbourne+Australia",
   "lat": -37.8144584,
   "lng": 144.9724897,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Sandwiches"
  },
  {
   "id": "eatalley-cbd",
@@ -612,7 +652,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=EatAlley+CBD+Melbourne+Australia",
   "lat": -37.8106306,
   "lng": 144.9656544,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Malaysian hawker"
  },
  {
   "id": "enelssie-cafe-grill-cbd",
@@ -627,7 +668,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Enelssie+Cafe+%26+Grill+CBD+Melbourne+Australia",
   "lat": -37.8152834,
   "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Filipino cafe"
  },
  {
   "id": "foodao-cbd",
@@ -642,7 +684,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=FOODAO+CBD+Melbourne+Australia",
   "lat": -37.8103257,
   "lng": 144.9619601,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Chinese street food"
  },
  {
   "id": "fishbowl-cbd",
@@ -657,7 +700,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fishbowl+CBD+Melbourne+Australia",
   "lat": -37.8152834,
   "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Poke bowls"
  },
  {
   "id": "food-hall-cbd",
@@ -672,7 +716,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Food+Hall+CBD+Melbourne+Australia",
   "lat": -37.8208024,
   "lng": 144.9568539,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Asian food hall"
  },
  {
   "id": "french-fix-cbd",
@@ -687,7 +732,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=French+Fix+CBD+Melbourne+Australia",
   "lat": -37.8119773,
   "lng": 144.9594267,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "French cafe"
  },
  {
   "id": "fuwa-kakigori-cbd",
@@ -702,7 +748,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fuwa+Kakigori+CBD+Melbourne+Australia",
   "lat": -37.8112312,
   "lng": 144.9600269,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese kakigori"
  },
  {
   "id": "gimbap-jang-go-mama-cbd",
@@ -717,7 +764,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gimbap+Jang+Go+Mama+CBD+Melbourne+Australia",
   "lat": -37.8107371,
   "lng": 144.9681158,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Korean gimbap"
  },
  {
   "id": "g-z-city-cbd",
@@ -732,7 +780,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=G%C3%B6z+City+CBD+Melbourne+Australia",
   "lat": -37.815958,
   "lng": 144.961102,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Turkish gozleme"
  },
  {
   "id": "hansik-cbd",
@@ -747,7 +796,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hansik+CBD+Melbourne+Australia",
   "lat": -37.8086721,
   "lng": 144.9629411,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Korean"
  },
  {
   "id": "heng-heng-thai-local-food-hall-cbd",
@@ -762,7 +812,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Heng+%28Heng+Thai+Local+Food+Hall%29+CBD+Melbourne+Australia",
   "lat": -37.8127599,
   "lng": 144.9693633,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Thai"
  },
  {
   "id": "heyday-hong-kong-cafe-cbd",
@@ -777,7 +828,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Heyday+Hong+Kong+Cafe+CBD+Melbourne+Australia",
   "lat": -37.8118424,
   "lng": 144.9663001,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Hong Kong cafe"
  },
  {
   "id": "ho-jiak-melbourne-cbd",
@@ -792,7 +844,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ho+Jiak+Melbourne+CBD+Melbourne+Australia",
   "lat": -37.8137422,
   "lng": 144.9665146,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Malaysian"
  },
  {
   "id": "hua-lu-peking-duck-cbd",
@@ -807,7 +860,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hua+Lu+Peking+Duck+CBD+Melbourne+Australia",
   "lat": -37.8089414,
   "lng": 144.9619393,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Peking duck"
  },
  {
   "id": "ipoh-town-cbd",
@@ -822,7 +876,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ipoh+Town+CBD+Melbourne+Australia",
   "lat": -37.8152834,
   "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Malaysian"
  },
  {
   "id": "jalan-alor-melbourne-cbd",
@@ -837,7 +892,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jalan+Alor+Melbourne+CBD+Melbourne+Australia",
   "lat": -37.8080528,
   "lng": 144.961578,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Malaysian"
  },
  {
   "id": "jin-noodle-restaurant-cbd",
@@ -852,7 +908,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jin+Noodle+Restaurant+CBD+Melbourne+Australia",
   "lat": -37.8122378,
   "lng": 144.9675706,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Shanxi noodles"
  },
  {
   "id": "jom-cbd",
@@ -867,7 +924,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jom+CBD+Melbourne+Australia",
   "lat": -37.8122252,
   "lng": 144.9622387,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Malaysian"
  },
  {
   "id": "jom-corner-cbd",
@@ -882,7 +940,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jom+Corner+CBD+Melbourne+Australia",
   "lat": -37.8151919,
   "lng": 144.9601433,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Malaysian street food"
  },
  {
   "id": "kata-kita-cbd",
@@ -897,7 +956,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kata+Kita+CBD+Melbourne+Australia",
   "lat": -37.8099897,
   "lng": 144.9614983,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Modern Indonesian"
  },
  {
   "id": "katsuretsu-co-cbd",
@@ -912,7 +972,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KatsuRetsu+Co+CBD+Melbourne+Australia",
   "lat": -37.8160697,
   "lng": 144.9569868,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese tonkatsu"
  },
  {
   "id": "khao-man-gai-cbd",
@@ -927,7 +988,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Khao+Man+Gai+CBD+Melbourne+Australia",
   "lat": -37.8128532,
   "lng": 144.9610158,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Thai chicken rice"
  },
  {
   "id": "kikanbo-melbourne-cbd",
@@ -942,7 +1004,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kikanbo+Melbourne+CBD+Melbourne+Australia",
   "lat": -37.8124262,
   "lng": 144.9542227,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese spicy miso"
  },
  {
   "id": "kombu-cbd",
@@ -957,7 +1020,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kombu+CBD+Melbourne+Australia",
   "lat": -37.8075729,
   "lng": 144.9587752,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese"
  },
  {
   "id": "korchi-city-cbd",
@@ -972,7 +1036,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Korchi+City+CBD+Melbourne+Australia",
   "lat": -37.8142846,
   "lng": 144.9596514,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Korean-Chinese"
  },
  {
   "id": "lang-baan-cbd",
@@ -987,7 +1052,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lang+Baan+CBD+Melbourne+Australia",
   "lat": -37.8151922,
   "lng": 144.9541568,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Thai"
  },
  {
   "id": "lee-ho-fook-cbd",
@@ -1002,7 +1068,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lee+Ho+Fook+CBD+Melbourne+Australia",
   "lat": -37.8152834,
   "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Modern Chinese"
  },
  {
   "id": "little-ramen-bar-cbd",
@@ -1017,7 +1084,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Little+Ramen+Bar+CBD+Melbourne+Australia",
   "lat": -37.8156443,
   "lng": 144.9624968,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese ramen"
  },
  {
   "id": "liyin-rice-roll-master-cbd",
@@ -1032,7 +1100,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Liyin+Rice+Roll+Master+CBD+Melbourne+Australia",
   "lat": -37.813816,
   "lng": 144.9561575,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Cheung fun"
  },
  {
   "id": "lulu-s-char-koay-teow-cbd",
@@ -1047,7 +1116,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lulu%27s+Char+Koay+Teow+CBD+Melbourne+Australia",
   "lat": -37.8133468,
   "lng": 144.9612634,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Malaysian hawker"
  },
  {
   "id": "maison-b-tard-cbd",
@@ -1062,7 +1132,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Maison+B%C3%A2tard+CBD+Melbourne+Australia",
   "lat": -37.811792,
   "lng": 144.972352,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Modern French"
  },
  {
   "id": "mandarin-food-store-cbd",
@@ -1077,7 +1148,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mandarin+Food+Store+CBD+Melbourne+Australia",
   "lat": -37.8151922,
   "lng": 144.9541568,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Hong Kong"
  },
  {
   "id": "mankeumi-cbd",
@@ -1092,7 +1164,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mankeumi+CBD+Melbourne+Australia",
   "lat": -37.8118537,
   "lng": 144.9617936,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Korean"
  },
  {
   "id": "market-lane-coffee-cbd",
@@ -1107,7 +1180,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Market+Lane+Coffee+CBD+Melbourne+Australia",
   "lat": -37.8185901,
   "lng": 144.9559503,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Specialty coffee"
  },
  {
   "id": "ma-z-y-cacao-cbd",
@@ -1122,7 +1196,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ma%C3%ADz+y+Cacao+CBD+Melbourne+Australia",
   "lat": -37.8143488,
   "lng": 144.9600094,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Mexican"
  },
  {
   "id": "mensho-tokyo-cbd",
@@ -1137,7 +1212,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mensho+Tokyo+CBD+Melbourne+Australia",
   "lat": -37.8123169,
   "lng": 144.9681731,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese ramen"
  },
  {
   "id": "miznon-melbourne-cbd",
@@ -1152,7 +1228,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Miznon+Melbourne+CBD+Melbourne+Australia",
   "lat": -37.8133769,
   "lng": 144.9609791,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Israeli"
  },
  {
   "id": "movida-aqu-cbd",
@@ -1167,7 +1244,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MoVida+Aqu%C3%AD+CBD+Melbourne+Australia",
   "lat": -37.8151557,
   "lng": 144.9588576,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Spanish tapas"
  },
  {
   "id": "mr-lee-s-foods-lee-seonsaeng-cbd",
@@ -1182,7 +1260,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mr+Lee%27s+Foods+%28Lee+Seonsaeng%29+CBD+Melbourne+Australia",
   "lat": -37.8110093,
   "lng": 144.9628074,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Korean gukbap"
  },
  {
   "id": "mr-lee-s-foods-city-cbd",
@@ -1197,7 +1276,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mr.+Lee%27s+Foods+City+CBD+Melbourne+Australia",
   "lat": -37.8133,
   "lng": 144.9559562,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Korean"
  },
  {
   "id": "munch-bowl-cbd",
@@ -1212,7 +1292,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Munch+Bowl+%28%E5%B7%9D%E5%B0%8F%E7%A2%97%29+CBD+Melbourne+Australia",
   "lat": -37.8090671,
   "lng": 144.9605046,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Sichuan"
  },
  {
   "id": "my-lost-piece-cbd",
@@ -1227,7 +1308,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=My+Lost+Piece+CBD+Melbourne+Australia",
   "lat": -37.8155134,
   "lng": 144.9529056,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Taiwanese"
  },
  {
   "id": "nana-thai-style-hotpot-bbq-nana-mookata-cbd",
@@ -1242,7 +1324,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nana+Thai+Style+Hotpot+%26+BBQ+%28Nana+Mookata%29+CBD+Melbourne+Australia",
   "lat": -37.8128598,
   "lng": 144.9685139,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Thai BBQ"
  },
  {
   "id": "no-1-iron-pot-stew-and-inn-cbd",
@@ -1257,7 +1340,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=No.1+Iron+Pot+Stew+and+Inn+CBD+Melbourne+Australia",
   "lat": -37.807998,
   "lng": 144.961883,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Northeast Chinese"
  },
  {
   "id": "nora-thai-cbd",
@@ -1272,7 +1356,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nora+Thai+CBD+Melbourne+Australia",
   "lat": -37.8105087,
   "lng": 144.9690989,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Southern Thai"
  },
  {
   "id": "nori-maki-cbd",
@@ -1287,7 +1372,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nori+Maki+CBD+Melbourne+Australia",
   "lat": -37.8171652,
   "lng": 144.9532884,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese omakase"
  },
  {
   "id": "oden-cbd",
@@ -1302,7 +1388,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Oden+CBD+Melbourne+Australia",
   "lat": -37.8162149,
   "lng": 144.954013,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Japanese oden"
  },
  {
   "id": "ondo-cbd",
@@ -1317,7 +1404,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ondo+CBD+Melbourne+Australia",
   "lat": -37.8093872,
   "lng": 144.9685103,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Korean"
  },
  {
   "id": "operator-san-cbd",
@@ -1332,7 +1420,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Operator+San+CBD+Melbourne+Australia",
   "lat": -37.8152834,
   "lng": 144.9618789,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Japanese cafe"
  },
  {
   "id": "operator25-cbd",
@@ -1347,7 +1436,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Operator25+CBD+Melbourne+Australia",
   "lat": -37.8107145,
   "lng": 144.9571233,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Cafe & brunch"
  },
  {
   "id": "osaka-bench-cbd",
@@ -1362,7 +1452,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Osaka+Bench+CBD+Melbourne+Australia",
   "lat": -37.8146395,
   "lng": 144.9732306,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Japanese teppanyaki"
  },
  {
   "id": "overlay-coffee-cbd",
@@ -1377,7 +1468,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Overlay+Coffee+CBD+Melbourne+Australia",
   "lat": -37.8116036,
   "lng": 144.9603391,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Specialty coffee"
  },
  {
   "id": "pa-tong-thai-cbd",
@@ -1392,7 +1484,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Pa+Tong+Thai+CBD+Melbourne+Australia",
   "lat": -37.8170295,
   "lng": 144.9654794,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Southern Thai"
  },
  {
   "id": "paco-s-tacos-cbd",
@@ -1407,7 +1500,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Paco%27s+Tacos+CBD+Melbourne+Australia",
   "lat": -37.8151557,
   "lng": 144.9588576,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Mexican"
  },
  {
   "id": "parkbongsook-cbd",
@@ -1422,7 +1516,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=ParkBongSook+CBD+Melbourne+Australia",
   "lat": -37.8138771,
   "lng": 144.9558943,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Korean"
  },
  {
   "id": "pick-prik-cbd",
@@ -1437,7 +1532,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Pick+Prik+CBD+Melbourne+Australia",
   "lat": -37.8127599,
   "lng": 144.9693633,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Thai"
  },
  {
   "id": "publique-bakery-cbd-queen-victoria-market",
@@ -1452,7 +1548,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Publique+Bakery+CBD+%28Queen+Victoria+Market%29+Melbourne+Australia",
   "lat": -37.806245,
   "lng": 144.9577948,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "French boulangerie"
  },
  {
   "id": "queen-st-bb-cbd",
@@ -1467,7 +1564,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Queen+St.+BB+CBD+Melbourne+Australia",
   "lat": -37.8091311,
   "lng": 144.9582371,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Italian dessert"
  },
  {
   "id": "r-harn-cbd",
@@ -1482,7 +1580,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=R.Harn+CBD+Melbourne+Australia",
   "lat": -37.8099897,
   "lng": 144.9614983,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Southern Thai"
  },
  {
   "id": "robata-cbd",
@@ -1497,7 +1596,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Robata+CBD+Melbourne+Australia",
   "lat": -37.8156833,
   "lng": 144.9726695,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese robatayaki"
  },
  {
   "id": "rongcha-cbd",
@@ -1512,7 +1612,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rongcha+CBD+Melbourne+Australia",
   "lat": -37.8079077,
   "lng": 144.9711565,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Thai cafe"
  },
  {
   "id": "sot-dining-cbd",
@@ -1527,7 +1628,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=SOT+Dining+CBD+Melbourne+Australia",
   "lat": -37.812003,
   "lng": 144.970078,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Modern Korean"
  },
  {
   "id": "sachi-cbd",
@@ -1542,7 +1644,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sachi+CBD+Melbourne+Australia",
   "lat": -37.8145083,
   "lng": 144.9602763,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Sushi & omakase"
  },
  {
   "id": "sagye-cbd",
@@ -1557,7 +1660,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sagye+CBD+Melbourne+Australia",
   "lat": -37.8103892,
   "lng": 144.9672847,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Korean gomtang"
  },
  {
   "id": "sal-s-authentic-new-york-pizza-cbd",
@@ -1572,7 +1676,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sal%27s+Authentic+New+York+Pizza+CBD+Melbourne+Australia",
   "lat": -37.8146395,
   "lng": 144.9732306,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Pizza"
  },
  {
   "id": "soi-38-cbd",
@@ -1587,7 +1692,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Soi+38+CBD+Melbourne+Australia",
   "lat": -37.8138715,
   "lng": 144.966902,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Thai street food"
  },
  {
   "id": "stop-whining-seafood-wine-bar-cbd",
@@ -1602,7 +1708,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Stop+Whining+Seafood+Wine+Bar+CBD+Melbourne+Australia",
   "lat": -37.8120302,
   "lng": 144.9680445,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Seafood & wine"
  },
  {
   "id": "tian38-cbd",
@@ -1617,7 +1724,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tian38+CBD+Melbourne+Australia",
   "lat": -37.8169048,
   "lng": 144.9654743,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Singaporean"
  },
  {
   "id": "tomo-s-little-collins-cbd",
@@ -1632,7 +1740,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tomo%27s+Little+Collins+CBD+Melbourne+Australia",
   "lat": -37.8155587,
   "lng": 144.9619417,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese cafe"
  },
  {
   "id": "udon-yasan-cbd",
@@ -1647,7 +1756,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Udon+Yasan+CBD+Melbourne+Australia",
   "lat": -37.812755,
   "lng": 144.967709,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese udon"
  },
  {
   "id": "uncle-yoon-cbd",
@@ -1662,7 +1772,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Uncle+Yoon+CBD+Melbourne+Australia",
   "lat": -37.8116974,
   "lng": 144.9673196,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Korean-Chinese"
  },
  {
   "id": "wang-s-crispy-pancake-cbd",
@@ -1677,7 +1788,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wang%27s+Crispy+Pancake+CBD+Melbourne+Australia",
   "lat": -37.8115567,
   "lng": 144.9647318,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Chinese street food"
  },
  {
   "id": "yamamoto-udon-cbd",
@@ -1692,7 +1804,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yamamoto+Udon+CBD+Melbourne+Australia",
   "lat": -37.8154307,
   "lng": 144.9592088,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese udon"
  },
  {
   "id": "zabb-nua-cbd",
@@ -1707,13 +1820,14 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zabb+Nua+CBD+Melbourne+Australia",
   "lat": -37.813803,
   "lng": 144.954265,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Isan Thai"
  },
  {
   "id": "flower-drum-cbd-chinatown",
   "name": "Flower Drum",
   "cuisine": "Cantonese fine dining",
-  "suburb": "CBD (Chinatown)",
+  "suburb": "CBD",
   "city": "Melbourne",
   "description": "17 Market Lane; Melbourne institution since 1975, bookings essential",
   "address": "17 Market Lane",
@@ -1722,7 +1836,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Flower+Drum+CBD+%28Chinatown%29+Melbourne+Australia",
   "lat": -37.811867,
   "lng": 144.969217,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Cantonese"
  },
  {
   "id": "hakka-cuisine-camberwell",
@@ -1737,7 +1852,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hakka+Cuisine+Camberwell+Melbourne+Australia",
   "lat": -37.8462836,
   "lng": 145.0593027,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Hakka"
  },
  {
   "id": "afghan-kebab-carlton-carlton",
@@ -1752,7 +1868,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Afghan+Kebab+Carlton+Carlton+Melbourne+Australia",
   "lat": -37.8017916,
   "lng": 144.9670923,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Afghan"
  },
  {
   "id": "atsu-carlton",
@@ -1767,7 +1884,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Atsu+Carlton+Melbourne+Australia",
   "lat": -37.8024385,
   "lng": 144.96288,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Japanese katsu"
  },
  {
   "id": "attakai-carlton-carlton",
@@ -1782,7 +1900,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Attakai+%28Carlton%29+Carlton+Melbourne+Australia",
   "lat": -37.8063398,
   "lng": 144.9613579,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese cafe"
  },
  {
   "id": "cordelia-carlton",
@@ -1797,7 +1916,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cordelia+Carlton+Melbourne+Australia",
   "lat": -37.7951443,
   "lng": 144.9711951,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Seafood"
  },
  {
   "id": "hi-chong-qing-hi-cq-carlton",
@@ -1812,7 +1932,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hi+Chong+Qing+%28Hi+CQ%29+Carlton+Melbourne+Australia",
   "lat": -37.8064394,
   "lng": 144.9652018,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Chongqing noodles"
  },
  {
   "id": "kantin-indonesian-eatery-carlton",
@@ -1827,7 +1948,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kantin+-+Indonesian+Eatery+Carlton+Melbourne+Australia",
   "lat": -37.8041992,
   "lng": 144.9666276,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Indonesian"
  },
  {
   "id": "leonie-upstairs-carlton",
@@ -1842,7 +1964,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Leonie+Upstairs+Carlton+Melbourne+Australia",
   "lat": -37.8024385,
   "lng": 144.96288,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Sake bar"
  },
  {
   "id": "mandina-kitchen-carlton",
@@ -1857,7 +1980,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mandina+Kitchen+Carlton+Melbourne+Australia",
   "lat": -37.8037794,
   "lng": 144.9661042,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Yemeni"
  },
  {
   "id": "melitta-next-door-carlton",
@@ -1872,7 +1996,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Melitta+Next+Door+Carlton+Melbourne+Australia",
   "lat": -37.7955191,
   "lng": 144.9711136,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Mediterranean"
  },
  {
   "id": "regale-carlton",
@@ -1887,7 +2012,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Regale+Carlton+Melbourne+Australia",
   "lat": -37.8057076,
   "lng": 144.9626269,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Modern Thai"
  },
  {
   "id": "torissong-carlton",
@@ -1902,7 +2028,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Torissong+Carlton+Melbourne+Australia",
   "lat": -37.8046041,
   "lng": 144.9632666,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese yakitori"
  },
  {
   "id": "waroeng-ss-spesial-sambal-carlton",
@@ -1917,7 +2044,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Waroeng+SS+%28Spesial+Sambal%29+Carlton+Melbourne+Australia",
   "lat": -37.7976093,
   "lng": 144.9676828,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Indonesian"
  },
  {
   "id": "yoru-yoru-carlton",
@@ -1932,7 +2060,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yoru+Yoru+Carlton+Melbourne+Australia",
   "lat": -37.8004228,
   "lng": 144.9684343,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Japanese parfait"
  },
  {
   "id": "brico-carlton-north",
@@ -1947,7 +2076,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Brico+Carlton+North+Melbourne+Australia",
   "lat": -37.7863732,
   "lng": 144.9766797,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Natural wine bar"
  },
  {
   "id": "edita-s-fish-n-chips-carlton-north",
@@ -1962,7 +2092,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Edita%27s+Fish+%27N%27+Chips+Carlton+North+Melbourne+Australia",
   "lat": -37.7884447,
   "lng": 144.9723686,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Fish & chips"
  },
  {
   "id": "malin-carlton-north",
@@ -1977,13 +2108,14 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Malin+Carlton+North+Melbourne+Australia",
   "lat": -37.7888903,
   "lng": 144.9717061,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Modern European"
  },
  {
   "id": "taqueria-sin-nombre-chinatown-cbd",
   "name": "Taqueria Sin Nombre",
   "cuisine": "Mexican (tacos / taqueria)",
-  "suburb": "Chinatown (CBD)",
+  "suburb": "CBD",
   "city": "Melbourne",
   "description": "Hidden laneway taqueria at 12-14 Celestial Ave from the Dingo Ate My Taco team; walk-ins only, Thu-Sun",
   "address": "12-14 Celestial Ave",
@@ -1992,13 +2124,14 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Taqueria+Sin+Nombre+Chinatown+%28CBD%29+Melbourne+Australia",
   "lat": -37.8118731,
   "lng": 144.9664314,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Mexican"
  },
  {
   "id": "yaowarat-chinatown-cbd",
   "name": "Yaowarat",
   "cuisine": "Thai-Chinese",
-  "suburb": "Chinatown (CBD)",
+  "suburb": "CBD",
   "city": "Melbourne",
   "description": "7-9 Waratah Place, Chinatown, Melbourne CBD. Late-night (open to midnight daily) Thai-Chinese street food, inspired by Bangkok's Chinatown. By owner Surachai Kunchairattana (Aung Lo, Pick Prik, Heng, Lang Baan).",
   "address": "7-9 Waratah Place",
@@ -2007,7 +2140,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yaowarat+Chinatown+%28CBD%29+Melbourne+Australia",
   "lat": -37.8114538,
   "lng": 144.967041,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Thai-Chinese"
  },
  {
   "id": "for-heaven-s-steaks-clayton",
@@ -2022,7 +2156,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=For+Heaven%27s+Steaks+Clayton+Melbourne+Australia",
   "lat": -37.9309387,
   "lng": 145.1388019,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Steak sandwiches"
  },
  {
   "id": "hk-foodie-hkfoodie-clayton",
@@ -2037,7 +2172,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=HK+Foodie+%28%23HKFOODIE%29+Clayton+Melbourne+Australia",
   "lat": -37.9220075,
   "lng": 145.1400236,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Hong Kong cafe"
  },
  {
   "id": "taiwan-yes-clayton",
@@ -2052,7 +2188,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Taiwan+Yes+Clayton+Melbourne+Australia",
   "lat": -37.9144979,
   "lng": 145.1219749,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Taiwanese"
  },
  {
   "id": "the-1985-kafe-clayton-south",
@@ -2067,7 +2204,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+1985+Kafe+Clayton+South+Melbourne+Australia",
   "lat": -37.9362077,
   "lng": 145.1084813,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese cafe"
  },
  {
   "id": "chae-cockatoo",
@@ -2082,7 +2220,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=CHAE+Cockatoo+Melbourne+Australia",
   "lat": -37.9359421,
   "lng": 145.4932503,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Modern Korean"
  },
  {
   "id": "dua-bakehouse-collingwood",
@@ -2097,7 +2236,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dua+Bakehouse+Collingwood+Melbourne+Australia",
   "lat": -37.802104,
   "lng": 144.9881387,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Bakery"
  },
  {
   "id": "ini-coffee-collingwood",
@@ -2112,7 +2252,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=INI+Coffee+Collingwood+Melbourne+Australia",
   "lat": -37.8065359,
   "lng": 144.9847559,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Specialty coffee"
  },
  {
   "id": "lulu-me-cheesecakes-collingwood",
@@ -2127,7 +2268,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lulu+%26+Me+Cheesecakes+Collingwood+Melbourne+Australia",
   "lat": -37.79637,
   "lng": 144.9853648,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Cheesecake bakery"
  },
  {
   "id": "n-lee-bakery-collingwood",
@@ -2142,7 +2284,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=N+Lee+Bakery+Collingwood+Melbourne+Australia",
   "lat": -37.7944622,
   "lng": 144.9850511,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Banh mi"
  },
  {
   "id": "pasta-classica-collingwood",
@@ -2157,7 +2300,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Pasta+Classica+Collingwood+Melbourne+Australia",
   "lat": -37.7985474,
   "lng": 144.9846339,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Italian pasta"
  },
  {
   "id": "zareh-collingwood",
@@ -2172,7 +2316,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zareh+Collingwood+Melbourne+Australia",
   "lat": -37.7979488,
   "lng": 144.9847023,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Armenian & Lebanese"
  },
  {
   "id": "baker-bleu-cremorne",
@@ -2187,7 +2332,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Baker+Bleu+Cremorne+Melbourne+Australia",
   "lat": -37.8275983,
   "lng": 144.991921,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Sourdough bakery"
  },
  {
   "id": "urumqi-uyghur-eatery-dandenong-south",
@@ -2202,7 +2348,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Urumqi+Uyghur+Eatery+Dandenong+South+Melbourne+Australia",
   "lat": -38.0032615,
   "lng": 145.2482349,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Uyghur"
  },
  {
   "id": "kome-eatery-docklands",
@@ -2217,7 +2364,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kome+Eatery+Docklands+Melbourne+Australia",
   "lat": -37.8192552,
   "lng": 144.9536424,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese cafe"
  },
  {
   "id": "dawn-eatery-elsternwick",
@@ -2232,7 +2380,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dawn+Eatery+Elsternwick+Melbourne+Australia",
   "lat": -37.8849212,
   "lng": 145.0048429,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese-Korean cafe"
  },
  {
   "id": "el-columpio-fitzroy",
@@ -2247,7 +2396,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=El+Columpio+Fitzroy+Melbourne+Australia",
   "lat": -37.7982885,
   "lng": 144.9764368,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Mexican"
  },
  {
   "id": "frankie-s-tortas-and-tacos-fitzroy",
@@ -2262,7 +2412,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Frankie%27s+Tortas+and+Tacos+Fitzroy+Melbourne+Australia",
   "lat": -37.7982533,
   "lng": 144.9758568,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Mexican"
  },
  {
   "id": "good-daze-canteen-fitzroy",
@@ -2277,7 +2428,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Good+Daze+Canteen+Fitzroy+Melbourne+Australia",
   "lat": -37.7978418,
   "lng": 144.9786996,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Gelato"
  },
  {
   "id": "lune-croissanterie-fitzroy",
@@ -2292,7 +2444,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lune+Croissanterie+Fitzroy+Melbourne+Australia",
   "lat": -37.7959347,
   "lng": 144.9799605,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Bakery"
  },
  {
   "id": "masti-indian-restaurant-fitzroy",
@@ -2307,7 +2460,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MASTI+Indian+Restaurant+Fitzroy+Melbourne+Australia",
   "lat": -37.79662,
   "lng": 144.9789884,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Modern Indian"
  },
  {
   "id": "masses-bagels-fitzroy",
@@ -2322,7 +2476,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Masses+Bagels+Fitzroy+Melbourne+Australia",
   "lat": -37.8082313,
   "lng": 144.9825184,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Bagels"
  },
  {
   "id": "obanzai-mama-fitzroy",
@@ -2337,7 +2492,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Obanzai+Mama+Fitzroy+Melbourne+Australia",
   "lat": -37.8061982,
   "lng": 144.9827902,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese deli"
  },
  {
   "id": "rei",
@@ -2352,7 +2508,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rei+Melbourne+Australia",
   "lat": -37.8010382,
   "lng": 144.9792611,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Australian-Japanese"
  },
  {
   "id": "st-andrews-hotel-fitzroy",
@@ -2367,7 +2524,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=St+Andrews+Hotel+Fitzroy+Melbourne+Australia",
   "lat": -37.8018095,
   "lng": 144.9745067,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Pub"
  },
  {
   "id": "elmo-s-burgers-fitzroy-north",
@@ -2382,7 +2540,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Elmo%27s+Burgers+Fitzroy+North+Melbourne+Australia",
   "lat": -37.7794922,
   "lng": 144.9872765,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Smash burgers"
  },
  {
   "id": "lagotto-fitzroy-north",
@@ -2397,7 +2556,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lagotto+Fitzroy+North+Melbourne+Australia",
   "lat": -37.7915682,
   "lng": 144.9762914,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Italian"
  },
  {
   "id": "b-nh-x-o-c-ba-footscray",
@@ -2412,7 +2572,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=B%C3%A1nh+X%C3%A8o+C%C3%B4+Ba+Footscray+Melbourne+Australia",
   "lat": -37.788774,
   "lng": 144.8835391,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Vietnamese"
  },
  {
   "id": "c-th-qu-n-footscray",
@@ -2427,7 +2588,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=C%C3%B4+Th%C6%B0+Qu%C3%A1n+Footscray+Melbourne+Australia",
   "lat": -37.7984995,
   "lng": 144.8996002,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Vietnamese"
  },
  {
   "id": "first-taste-footscray",
@@ -2442,7 +2604,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=First+Taste+Footscray+Melbourne+Australia",
   "lat": -37.7998022,
   "lng": 144.9018666,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Cantonese"
  },
  {
   "id": "kariton-sorbetes-footscray",
@@ -2457,7 +2620,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kariton+Sorbetes+Footscray+Melbourne+Australia",
   "lat": -37.8004927,
   "lng": 144.9010615,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Filipino gelato"
  },
  {
   "id": "matsu-footscray",
@@ -2472,7 +2636,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Matsu+Footscray+Melbourne+Australia",
   "lat": -37.7981339,
   "lng": 144.897345,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Japanese kaiseki"
  },
  {
   "id": "xuan-anh-banh-cuon-footscray",
@@ -2487,7 +2652,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Xuan+Anh+Banh+Cuon+Footscray+Melbourne+Australia",
   "lat": -37.8005914,
   "lng": 144.9020846,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Vietnamese"
  },
  {
   "id": "andzero-glen-waverley",
@@ -2502,7 +2668,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Andzero+Glen+Waverley+Melbourne+Australia",
   "lat": -37.873677,
   "lng": 145.1591629,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese cafe"
  },
  {
   "id": "gambino-restaurant-rooftop-glen-waverley",
@@ -2517,7 +2684,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gambino+Restaurant+%26+Rooftop+Glen+Waverley+Melbourne+Australia",
   "lat": -37.8796677,
   "lng": 145.1629162,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Italian"
  },
  {
   "id": "chef-wong-hawthorn-east-hawthorn-east",
@@ -2532,7 +2700,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chef+Wong+Hawthorn+East+Hawthorn+East+Melbourne+Australia",
   "lat": -37.8256895,
   "lng": 145.0498749,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Cantonese yum cha"
  },
  {
   "id": "daikokuten-hawthorn-east",
@@ -2547,7 +2716,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Daikokuten+Hawthorn+East+Melbourne+Australia",
   "lat": -37.8461361,
   "lng": 145.0448791,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese brunch"
  },
  {
   "id": "the-bearded-pig-heidelberg-west",
@@ -2562,7 +2732,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Bearded+Pig+Heidelberg+West+Melbourne+Australia",
   "lat": -37.7315016,
   "lng": 145.048247,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "American BBQ"
  },
  {
   "id": "spicy-swan-huntingdale",
@@ -2577,7 +2748,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Spicy+Swan+Huntingdale+Melbourne+Australia",
   "lat": -37.9092182,
   "lng": 145.103576,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Sri Lankan"
  },
  {
   "id": "swatow-cafe-kew",
@@ -2592,7 +2764,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Swatow+Cafe+Kew+Melbourne+Australia",
   "lat": -37.8075084,
   "lng": 145.0293628,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Teochew"
  },
  {
   "id": "baba-chef-kew-east",
@@ -2607,7 +2780,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BaBa+Chef+Kew+East+Melbourne+Australia",
   "lat": -37.798585,
   "lng": 145.0518923,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Malaysian"
  },
  {
   "id": "yaki-jin-kew-east",
@@ -2622,7 +2796,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yaki+Jin+Kew+East+Melbourne+Australia",
   "lat": -37.7988445,
   "lng": 145.0512982,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese izakaya"
  },
  {
   "id": "mietta-by-rosemary-malvern",
@@ -2637,7 +2812,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mietta+by+Rosemary+Malvern+Melbourne+Australia",
   "lat": -37.8653867,
   "lng": 145.0276344,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Cakes & patisserie"
  },
  {
   "id": "deli4you-maribyrnong",
@@ -2652,7 +2828,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Deli4You+Maribyrnong+Melbourne+Australia",
   "lat": -37.7866509,
   "lng": 144.9006664,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Polish deli"
  },
  {
   "id": "marko-s-schnitzel-moorabbin",
@@ -2667,7 +2844,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Marko%27s+Schnitzel+Moorabbin+Melbourne+Australia",
   "lat": -37.9467186,
   "lng": 145.0589816,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Schnitzel rolls"
  },
  {
   "id": "bottari-north-melbourne",
@@ -2682,7 +2860,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bottari+North+Melbourne+Melbourne+Australia",
   "lat": -37.7224174,
   "lng": 144.9847988,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Korean cafe"
  },
  {
   "id": "manz-north-melbourne",
@@ -2697,7 +2876,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Manz%C3%A9+North+Melbourne+Melbourne+Australia",
   "lat": -37.7967735,
   "lng": 144.9506529,
-  "geoPrecision": "street"
+  "geoPrecision": "street",
+  "cuisineShort": "Mauritian"
  },
  {
   "id": "on-dol-korean-cuisine-north-melbourne",
@@ -2712,7 +2892,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=ON.DOL+Korean+Cuisine+North+Melbourne+Melbourne+Australia",
   "lat": -37.803971,
   "lng": 144.9496229,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Korean BBQ"
  },
  {
   "id": "loku-northcote",
@@ -2727,7 +2908,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Loku+Northcote+Melbourne+Australia",
   "lat": -37.7714097,
   "lng": 144.9987484,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Sri Lankan"
  },
  {
   "id": "nostra-northcote",
@@ -2742,7 +2924,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nostra+Northcote+Melbourne+Australia",
   "lat": -37.7728157,
   "lng": 145.0009469,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Italian"
  },
  {
   "id": "onlys-northcote",
@@ -2757,7 +2940,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Onlys+Northcote+Melbourne+Australia",
   "lat": -37.7787719,
   "lng": 145.0104413,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Natural wine bar"
  },
  {
   "id": "meating-korean-bbq-buffet-nunawading-nunawading",
@@ -2772,7 +2956,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MEATing+Korean+BBQ+Buffet+Nunawading+Nunawading+Melbourne+Australia",
   "lat": -37.820503,
   "lng": 145.1751332,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Korean BBQ"
  },
  {
   "id": "kalimera-souvlaki-art-oakleigh",
@@ -2787,7 +2972,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kalimera+Souvlaki+Art+Oakleigh+Melbourne+Australia",
   "lat": -37.8995347,
   "lng": 145.0903834,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Greek souvlaki"
  },
  {
   "id": "king-of-the-roast-oakleigh-south",
@@ -2802,7 +2988,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=King+of+the+Roast+Oakleigh+South+Melbourne+Australia",
   "lat": -37.9443646,
   "lng": 145.0970813,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Roast meat rolls"
  },
  {
   "id": "migak-oakleigh-south",
@@ -2817,7 +3004,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Migak+Oakleigh+South+Melbourne+Australia",
   "lat": -37.9264971,
   "lng": 145.0922333,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Korean"
  },
  {
   "id": "moja-duck-parkville",
@@ -2832,7 +3020,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MOJA+Duck+Parkville+Melbourne+Australia",
   "lat": -37.7829784,
   "lng": 144.9592638,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Peking duck"
  },
  {
   "id": "hopper-joint-prahran",
@@ -2847,7 +3036,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hopper+Joint+Prahran+Melbourne+Australia",
   "lat": -37.8491789,
   "lng": 144.9920858,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Sri Lankan"
  },
  {
   "id": "adana-sofra-reservoir",
@@ -2862,7 +3052,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Adana+Sofra+Reservoir+Melbourne+Australia",
   "lat": -37.7049915,
   "lng": 144.9896349,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Turkish"
  },
  {
   "id": "burmese-house-richmond",
@@ -2877,7 +3068,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Burmese+House+Richmond+Melbourne+Australia",
   "lat": -37.818318,
   "lng": 144.999763,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Burmese"
  },
  {
   "id": "c-th-qu-n-richmond",
@@ -2892,7 +3084,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=C%C3%B4+Th%C6%B0+Qu%C3%A1n+Richmond+Melbourne+Australia",
   "lat": -37.8098067,
   "lng": 144.9929555,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Vietnamese"
  },
  {
   "id": "mushroom-kiosk-richmond",
@@ -2907,7 +3100,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mushroom+Kiosk+Richmond+Melbourne+Australia",
   "lat": -37.8254497,
   "lng": 144.9970281,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Hong Kong cafe"
  },
  {
   "id": "pacific-seafood-bbq-house-richmond",
@@ -2922,7 +3116,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Pacific+Seafood+BBQ+House+Richmond+Melbourne+Australia",
   "lat": -37.8119119,
   "lng": 145.0133341,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Cantonese"
  },
  {
   "id": "warkop-richmond",
@@ -2937,7 +3132,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Warkop+Richmond+Melbourne+Australia",
   "lat": -37.8132937,
   "lng": 144.9994939,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Indonesian cafe"
  },
  {
   "id": "attica-ripponlea",
@@ -2952,7 +3148,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Attica+Ripponlea+Melbourne+Australia",
   "lat": -37.8770317,
   "lng": 144.9973116,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Modern Australian"
  },
  {
   "id": "aoi-tsuki-south-yarra",
@@ -2967,7 +3164,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aoi+Tsuki+South+Yarra+Melbourne+Australia",
   "lat": -37.8398017,
   "lng": 144.9863341,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese omakase"
  },
  {
   "id": "emotional-oranges-south-yarra",
@@ -2982,7 +3180,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Emotional+Oranges+South+Yarra+Melbourne+Australia",
   "lat": -37.8461337,
   "lng": 144.9940592,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Crepe cakes"
  },
  {
   "id": "france-soir-south-yarra",
@@ -2997,7 +3196,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=France-Soir+South+Yarra+Melbourne+Australia",
   "lat": -37.8382457,
   "lng": 144.9869545,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "French bistro"
  },
  {
   "id": "steer-dining-room-south-yarra",
@@ -3012,7 +3212,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Steer+Dining+Room+South+Yarra+Melbourne+Australia",
   "lat": -37.8377695,
   "lng": 144.9918537,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Steakhouse"
  },
  {
   "id": "warung-coffee-sandwiches-south-yarra",
@@ -3027,7 +3228,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Warung+Coffee+%26+Sandwiches+South+Yarra+Melbourne+Australia",
   "lat": -37.8417721,
   "lng": 144.9951588,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Specialty coffee"
  },
  {
   "id": "itteki-matcha-cafe-south-yarra",
@@ -3042,7 +3244,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=itteki+%E4%B8%80%E6%BB%B4+Matcha+%2B+Cafe+South+Yarra+Melbourne+Australia",
   "lat": -37.8377695,
   "lng": 144.9918537,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Japanese matcha"
  },
  {
   "id": "kolkata-cricket-club-southbank",
@@ -3057,7 +3260,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kolkata+Cricket+Club+Southbank+Melbourne+Australia",
   "lat": -37.8248154,
   "lng": 144.9576991,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Modern Indian"
  },
  {
   "id": "bun-bun-bakery-springvale-springvale",
@@ -3072,7 +3276,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bun+Bun+Bakery+Springvale+Springvale+Melbourne+Australia",
   "lat": -37.9521107,
   "lng": 145.1518673,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Banh mi"
  },
  {
   "id": "martabak-pecenongan-78-springvale",
@@ -3087,7 +3292,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Martabak+Pecenongan+78+Springvale+Melbourne+Australia",
   "lat": -37.9492924,
   "lng": 145.1512185,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Indonesian martabak"
  },
  {
   "id": "rojo-sambel-martabak-pecenongan-78-springvale",
@@ -3102,7 +3308,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rojo+Sambel+%26+Martabak+Pecenongan+78+Springvale+Melbourne+Australia",
   "lat": -37.9492924,
   "lng": 145.1512185,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Indonesian"
  },
  {
   "id": "c-th-qu-n-st-albans-st-albans",
@@ -3117,7 +3324,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=C%C3%B4+Th%C6%B0+Qu%C3%A1n+St+Albans+St+Albans+Melbourne+Australia",
   "lat": -37.744556,
   "lng": 144.7996864,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Vietnamese"
  },
  {
   "id": "garam-merica-st-kilda-road",
@@ -3132,7 +3340,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Garam+Merica+St+Kilda+Road+Melbourne+Australia",
   "lat": -37.8603864,
   "lng": 145.0092712,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Indonesian"
  },
  {
   "id": "pizzicotto-pizzeria-e-cucina-strathmore",
@@ -3147,7 +3356,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Pizzicotto+Pizzeria+e+Cucina+Strathmore+Melbourne+Australia",
   "lat": -37.7431127,
   "lng": 144.9267504,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Pizza & pasta"
  },
  {
   "id": "caf-sunshine-salamatea-sunshine",
@@ -3162,7 +3372,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Sunshine+%26+Salamatea+Sunshine+Melbourne+Australia",
   "lat": -37.8004771,
   "lng": 144.8384995,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Persian"
  },
  {
   "id": "federal-taung-zalat-sunshine",
@@ -3177,7 +3388,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Federal+Taung+Zalat+Sunshine+Melbourne+Australia",
   "lat": -37.7893319,
   "lng": 144.8342699,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Burmese"
  },
  {
   "id": "kababi-sunshine",
@@ -3192,7 +3404,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kababi+Sunshine+Melbourne+Australia",
   "lat": -37.8002061,
   "lng": 144.838782,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Persian BBQ"
  },
  {
   "id": "xuan-banh-cuon-sunshine",
@@ -3207,7 +3420,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Xuan+Banh+Cuon+Sunshine+Melbourne+Australia",
   "lat": -37.7864633,
   "lng": 144.832155,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Vietnamese"
  },
  {
   "id": "yuki-tei-tempura-bar-toorak",
@@ -3222,7 +3436,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yuki+Tei+Tempura+Bar+Toorak+Melbourne+Australia",
   "lat": -37.8410927,
   "lng": 145.0106274,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Japanese tempura"
  },
  {
   "id": "279-coffee-musubi-west-melbourne",
@@ -3237,7 +3452,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=279+%7C+Coffee+%26+Musubi+West+Melbourne+Melbourne+Australia",
   "lat": -37.8056301,
   "lng": 144.9519814,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Specialty coffee"
  },
  {
   "id": "ch-m-west-melbourne",
@@ -3252,7 +3468,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ch%C3%A0m+West+Melbourne+Melbourne+Australia",
   "lat": -37.8075754,
   "lng": 144.9553629,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Vietnamese cafe"
  },
  {
   "id": "jusik-west-melbourne",
@@ -3267,7 +3484,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=JUSIK+West+Melbourne+Melbourne+Australia",
   "lat": -37.8071455,
   "lng": 144.9554407,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Korean BBQ"
  },
  {
   "id": "myth-cafe-west-melbourne",
@@ -3282,7 +3500,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Myth+Cafe+West+Melbourne+Melbourne+Australia",
   "lat": -37.8076214,
   "lng": 144.9526462,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Malaysian hawker"
  },
  {
   "id": "sanhe-congee-west-melbourne",
@@ -3297,7 +3516,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sanhe+Congee+West+Melbourne+Melbourne+Australia",
   "lat": -37.8060152,
   "lng": 144.9554365,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Chinese congee"
  },
  {
   "id": "the-flour-melbourne-west-melbourne",
@@ -3312,7 +3532,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Flour+Melbourne+West+Melbourne+Melbourne+Australia",
   "lat": -37.8059549,
   "lng": 144.9547741,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "French patisserie"
  },
  {
   "id": "warung-agus-west-melbourne",
@@ -3327,7 +3548,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Warung+Agus+West+Melbourne+Melbourne+Australia",
   "lat": -37.808747,
   "lng": 144.9238207,
-  "geoPrecision": "suburb"
+  "geoPrecision": "suburb",
+  "cuisineShort": "Balinese"
  },
  {
   "id": "na-he-bistro-windsor",
@@ -3342,7 +3564,8 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Na+He+Bistro+Windsor+Melbourne+Australia",
   "lat": -37.8528796,
   "lng": 144.992967,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Yunnan"
  },
  {
   "id": "coracle-yarraville",
@@ -3357,6 +3580,7 @@
   "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Coracle+Yarraville+Melbourne+Australia",
   "lat": -37.8166256,
   "lng": 144.8894067,
-  "geoPrecision": "exact"
+  "geoPrecision": "exact",
+  "cuisineShort": "Vietnamese"
  }
 ]
