@@ -13,4 +13,5 @@ export {
   InstagramLogo as InstagramIcon,
   Confetti as ConfettiIcon,
   MagnifyingGlass as SearchIcon,
+  X as CloseIcon,
 } from '@phosphor-icons/react'

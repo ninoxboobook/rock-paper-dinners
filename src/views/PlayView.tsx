@@ -6,7 +6,7 @@ import { VenueCard } from '../components/VenueCard'
 import { useShake } from '../hooks/useShake'
 import { useStore, filterVenues } from '../store/useStore'
 import type { Venue } from '../types'
-import { FilterIcon, StarIcon, ShakeIcon, ConfettiIcon, SpinIcon, DirectionsIcon } from '../lib/icons'
+import { FilterIcon, StarIcon, ShakeIcon, ConfettiIcon, SpinIcon, DirectionsIcon, CloseIcon } from '../lib/icons'
 
 export function PlayView() {
   const { venues, groups, suburbs, search, onlyShortlist, favourites } = useStore()
@@ -71,47 +71,54 @@ export function PlayView() {
         }}
       />
 
-      {phase === 'result' && winner ? (
-        <div className="result">
-          <Confetti key={winKey} />
-          <p className="result-kicker">
-            <ConfettiIcon size={18} weight="fill" /> Tonight you&apos;re eating at
-          </p>
-          <div onClick={() => openVenue(winner.id)} className="result-card-wrap">
-            <VenueCard venue={winner} onClick={() => openVenue(winner.id)} />
-          </div>
-          <div className="result-actions">
-            <button className="btn btn--primary" onClick={doSpin}>
-              <SpinIcon size={18} weight="bold" /> Spin again
-            </button>
-            <a className="btn btn--ghost" href={winner.mapsUrl} target="_blank" rel="noreferrer">
-              <DirectionsIcon size={18} weight="fill" /> Directions
-            </a>
-          </div>
-        </div>
-      ) : (
-        <div className="play-cta">
-          <button
-            className="spin-btn"
-            onClick={doSpin}
-            disabled={phase === 'spinning' || pool.length === 0}
-          >
-            {phase === 'spinning' ? 'Spinning…' : pool.length === 0 ? 'No venues match' : 'SPIN'}
-          </button>
+      {phase !== 'result' && (
+      <div className="play-cta">
+        <button
+          className="spin-btn"
+          onClick={doSpin}
+          disabled={phase === 'spinning' || pool.length === 0}
+        >
+          {phase === 'spinning' ? 'Spinning…' : pool.length === 0 ? 'No venues match' : 'SPIN'}
+        </button>
 
-          {motionSupported && !enabled && (
-            <button className="enable-shake" onClick={enable}>
-              <ShakeIcon size={18} weight="fill" />{' '}
-              {needsPermission ? 'Enable shake-to-spin' : 'Turn on shake-to-spin'}
+        {motionSupported && !enabled && (
+          <button className="enable-shake" onClick={enable}>
+            <ShakeIcon size={18} weight="fill" />{' '}
+            {needsPermission ? 'Enable shake-to-spin' : 'Turn on shake-to-spin'}
+          </button>
+        )}
+        {enabled && (
+          <p className="hint hint--icon">
+            <ShakeIcon size={16} weight="fill" /> Give your phone 3 good shakes
+          </p>
+        )}
+        {!motionSupported && <p className="hint">Tap SPIN — no motion sensor on this device.</p>}
+        {permission === 'denied' && <p className="hint hint--warn">Motion access denied — use the SPIN button.</p>}
+      </div>
+      )}
+
+      {phase === 'result' && winner && (
+        <div className="result-overlay" onClick={() => setPhase('idle')}>
+          <Confetti key={winKey} />
+          <div className="result-pop" onClick={(e) => e.stopPropagation()}>
+            <button className="result-close" aria-label="Dismiss" onClick={() => setPhase('idle')}>
+              <CloseIcon size={20} weight="bold" />
             </button>
-          )}
-          {enabled && (
-            <p className="hint hint--icon">
-              <ShakeIcon size={16} weight="fill" /> Give your phone 3 good shakes
+            <p className="result-kicker">
+              <ConfettiIcon size={18} weight="fill" /> Tonight you&apos;re eating at
             </p>
-          )}
-          {!motionSupported && <p className="hint">Tap SPIN — no motion sensor on this device.</p>}
-          {permission === 'denied' && <p className="hint hint--warn">Motion access denied — use the SPIN button.</p>}
+            <div onClick={() => openVenue(winner.id)} className="result-card-wrap">
+              <VenueCard venue={winner} onClick={() => openVenue(winner.id)} />
+            </div>
+            <div className="result-actions">
+              <button className="btn btn--primary" onClick={doSpin}>
+                <SpinIcon size={18} weight="bold" /> Spin again
+              </button>
+              <a className="btn btn--ghost" href={winner.mapsUrl} target="_blank" rel="noreferrer">
+                <DirectionsIcon size={18} weight="fill" /> Directions
+              </a>
+            </div>
+          </div>
         </div>
       )}
 
