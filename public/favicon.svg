@@ -1,23 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#2a2360"/><stop offset="1" stop-color="#0d0b1f"/>
-    </linearGradient>
-    <linearGradient id="pink" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ff6ab0"/><stop offset="1" stop-color="#ff2e88"/>
+      <stop offset="0" stop-color="#3c2c1d"/><stop offset="1" stop-color="#16100b"/>
     </linearGradient>
   </defs>
   <rect width="512" height="512" rx="112" fill="url(#bg)"/>
-  <rect x="36" y="36" width="440" height="440" rx="92" fill="none" stroke="#ffd60a" stroke-width="10" opacity="0.85"/>
-  <g>
-    <rect x="96" y="120" width="92" height="200" rx="20" fill="#0c0a1d"/>
-    <rect x="210" y="120" width="92" height="200" rx="20" fill="#0c0a1d"/>
-    <rect x="324" y="120" width="92" height="200" rx="20" fill="#0c0a1d"/>
-    <circle cx="142" cy="220" r="30" fill="#ff2e88"/>
-    <circle cx="256" cy="220" r="30" fill="#21e6c1"/>
-    <circle cx="370" cy="220" r="30" fill="#ffd60a"/>
-    <rect x="84" y="196" width="344" height="48" rx="16" fill="none" stroke="#ff2e88" stroke-width="6" opacity="0.9"/>
+  <rect x="34" y="34" width="444" height="444" rx="96" fill="none" stroke="#e7b24e" stroke-width="12" opacity="0.9"/>
+  <g transform="translate(116,118) scale(1.09)" fill="#d23b2c">
+    <path d="M178.42,72a75.24,75.24,0,0,0-10.21.37,91.9,91.9,0,0,0-21.59-25.09C108.78,16.79,57.05,23.77,54.87,24.08A8,8,0,0,0,48,31.43a8.19,8.19,0,0,0,3.69,7.32c17.4,11.68,25.37,30.91,28.7,49.65a72.08,72.08,0,1,0,16.26.14C93.54,68.59,86.56,52,76,39.37c16.67.72,41.24,4.78,60.64,20.48a74.76,74.76,0,0,1,15,16.39c-1.9.69-3.79,1.44-5.65,2.29a8.42,8.42,0,0,0-4.49,4.63,8,8,0,0,0,2.41,9,88.9,88.9,0,0,1,13.59,14,3.64,3.64,0,0,0,.65.65C160,108.15,165.83,112,176,112c12.15,0,18.18-5.51,18.43-5.75l-.09.09a8,8,0,1,1,11.32,11.32C204.6,118.72,194.77,128,176,128l-1.61,0a3,3,0,0,0-3,4,87.91,87.91,0,0,1-7,71.6,8.39,8.39,0,0,0-1,6.24,8,8,0,0,0,7.16,6c1.78.13,3.59.2,5.37.2a72,72,0,0,0,2.42-144Zm-72,50.21-.09.09a8,8,0,0,1,11.32,11.32C116.6,134.72,106.77,144,88,144s-28.6-9.28-29.66-10.34a8,8,0,0,1,11.32-11.32l-.09-.09c.25.24,6.28,5.75,18.43,5.75S106.18,122.49,106.43,122.25Z"/>
   </g>
-  <rect x="150" y="372" width="212" height="44" rx="22" fill="url(#pink)"/>
-  <text x="256" y="404" font-family="Arial Black, Arial, sans-serif" font-size="30" font-weight="900" fill="#2a0413" text-anchor="middle" letter-spacing="3">SPIN</text>
 </svg>
